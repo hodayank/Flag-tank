@@ -52,3 +52,7 @@ Environment `install_script` and `start_skill` were saved successfully as a draf
 - `rebuild-ghost-fixture.png` uses an explicitly labeled injected development simulation state at 8.5 seconds after destruction; it demonstrates the actual runtime telegraph, not a recorded natural match sequence.
 
 - Final restart check: PASS, three actual UI match restarts held renderer counts at 132 geometries and one texture on each measured iteration. This is bounded-resource evidence for that sequence, not an exhaustive leak proof.
+
+- Final audio cap and fallback check: PASS. The actual browser AudioContext gain remained zero under host mute despite UI mute toggles, then followed caps of 0.2 and 0.1 immediately. A supplied test bridge was used; this does not verify the native SDK. Web Crypto was disabled in this run and the packaged JavaScript SHA-256 fallback verified all resources successfully.
+
+Local implementation checkpoints were created; no Git push or environment publication was performed. The remote repository was empty when inspected. Downloadable source is the portable recovery artifact; fresh-task restoration of local-only Git history has not been verified.
