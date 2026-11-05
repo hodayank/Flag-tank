@@ -2450,97 +2450,9 @@
     {
       "asset": "BSC-13",
       "position": [
-        -28,
+        -23,
         0,
-        -12
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-13",
-      "position": [
-        28,
-        0,
-        10
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-17",
-      "position": [
-        -28,
-        0,
-        10
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-17",
-      "position": [
-        28,
-        0,
-        -12
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-20",
-      "position": [
-        -20,
-        0,
-        -19
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-19",
-      "position": [
-        20,
-        0,
-        19
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-21",
-      "position": [
-        -10,
-        0,
-        -19
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-22",
-      "position": [
-        10,
-        0,
-        19
-      ],
-      "rotation": 0,
-      "scale": 1,
-      "animation": "ambient"
-    },
-    {
-      "asset": "BSC-18",
-      "position": [
-        -29,
-        0,
-        0
+        -21.5
       ],
       "rotation": 0,
       "scale": 1,
@@ -2549,7 +2461,480 @@
     {
       "asset": "BSC-16",
       "position": [
-        29,
+        -21,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -25,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        -12,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        -10,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -14,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        0,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        2,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -2,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        12,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        14,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        10,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        23,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        25,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        21,
+        0,
+        -21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        -23,
+        0,
+        21.5
+      ],
+      "rotation": 3.14159,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        -21,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -25,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        -12,
+        0,
+        21.5
+      ],
+      "rotation": 3.14159,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        -10,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -14,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        0,
+        0,
+        21.5
+      ],
+      "rotation": 3.14159,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        2,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -2,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        12,
+        0,
+        21.5
+      ],
+      "rotation": 3.14159,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        14,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        10,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-13",
+      "position": [
+        23,
+        0,
+        21.5
+      ],
+      "rotation": 3.14159,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-16",
+      "position": [
+        25,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        21,
+        0,
+        21.5
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        -31,
+        0,
+        -13
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        -31,
+        0,
+        -5
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        -31,
+        0,
+        6
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        -31,
+        0,
+        14
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -31,
+        0,
+        -10
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -31,
+        0,
+        1
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        -31,
+        0,
+        11
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        31,
+        0,
+        -13
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        31,
+        0,
+        -5
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        31,
+        0,
+        6
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-17",
+      "position": [
+        31,
+        0,
+        14
+      ],
+      "rotation": 0,
+      "scale": 1.2,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        31,
+        0,
+        -10
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        31,
+        0,
+        1
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-18",
+      "position": [
+        31,
+        0,
+        11
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-20",
+      "position": [
+        -30,
         0,
         0
       ],
@@ -2558,22 +2943,209 @@
       "animation": "ambient"
     },
     {
-      "asset": "BSC-24",
+      "asset": "BSC-21",
       "position": [
-        -20,
+        -30,
         0,
-        19
+        0
       ],
       "rotation": 0,
       "scale": 1,
       "animation": "ambient"
     },
     {
-      "asset": "BSC-15",
+      "asset": "BSC-19",
       "position": [
-        20,
+        -30,
         0,
-        -19
+        -10
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-22",
+      "position": [
+        -29,
+        0,
+        -8
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-24",
+      "position": [
+        -30,
+        0,
+        -7
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-19",
+      "position": [
+        -30,
+        0,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-22",
+      "position": [
+        -29,
+        0,
+        2
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-24",
+      "position": [
+        -30,
+        0,
+        3
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-19",
+      "position": [
+        -30,
+        0,
+        10
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-22",
+      "position": [
+        -29,
+        0,
+        12
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-24",
+      "position": [
+        -30,
+        0,
+        13
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-19",
+      "position": [
+        30,
+        0,
+        -10
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-22",
+      "position": [
+        31,
+        0,
+        -8
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-24",
+      "position": [
+        30,
+        0,
+        -7
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-19",
+      "position": [
+        30,
+        0,
+        0
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-22",
+      "position": [
+        31,
+        0,
+        2
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-24",
+      "position": [
+        30,
+        0,
+        3
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-19",
+      "position": [
+        30,
+        0,
+        10
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-22",
+      "position": [
+        31,
+        0,
+        12
+      ],
+      "rotation": 0,
+      "scale": 1,
+      "animation": "ambient"
+    },
+    {
+      "asset": "BSC-24",
+      "position": [
+        30,
+        0,
+        13
       ],
       "rotation": 0,
       "scale": 1,

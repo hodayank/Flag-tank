@@ -6,7 +6,7 @@ for name in ids:
  count=4 if name in ['shot','tank-hit','adobe-crack','adobe-collapse','brick-crack','brick-collapse','stone-crack','stone-collapse'] else 1
  for variation in range(count):
   music=name.endswith('music');loop=music or 'ambience' in name or name.startswith(('motor','tread'));dur=48 if music else 4 if loop else .5 if 'shot' in name else .85
-  sr=22050;N=int(sr*dur);samples=[];smooth=0;freq=110+variation*9
+  sr=48000;N=int(sr*dur);samples=[];smooth=0;freq=110+variation*9
   for i in range(N):
    t=i/sr;smooth=.92*smooth+.08*random.uniform(-1,1)
    if music:
@@ -18,7 +18,7 @@ for name in ids:
    samples.append(max(-.9,min(.9,s)))
   file=name+(f'-{variation+1}' if count>1 else '')+'.wav'
   with wave.open(out+'/'+file,'wb') as w:w.setparams((1,2,sr,0,'NONE','not compressed'));w.writeframes(b''.join(struct.pack('<h',int(s*32767)) for s in samples))
-  manifest.append(dict(id=file[:-4],file='assets/audio/'+file,loop=loop,duration=dur,provenance='Original procedural PCM recording; authoring/audio.py',master=file))
+  manifest.append(dict(id=file[:-4],file='assets/audio/'+file,loop=loop,duration=dur,sampleRate=sr,channels=1,loopStart=0,loopEnd=N if loop else None,provenance='Original procedural PCM recording; authoring/audio.py',master=file))
 json.dump({'version':1,'sounds':manifest},open(root+'/public/assets/audio-manifest.json','w'),indent=2)
 for name,size in [('icon',256),('cover',768)]:
  im=Image.new('RGB',(size,size),(25,48,51));d=ImageDraw.Draw(im);d.rounded_rectangle((size*.18,size*.33,size*.82,size*.78),radius=size*.09,fill=(28,169,190));d.ellipse((size*.32,size*.28,size*.68,size*.63),fill=(47,194,211));d.rectangle((size*.46,size*.13,size*.54,size*.48),fill=(242,192,77));d.polygon([(size*.53,size*.14),(size*.82,size*.19),(size*.53,size*.3)],fill=(255,204,73));im.save(root+'/public/'+name+'.png')

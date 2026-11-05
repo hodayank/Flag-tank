@@ -1,0 +1,432 @@
+[
+  {
+    "id": "JPN-08-LOD1",
+    "triangles": 1184,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-22",
+    "triangles": 3712,
+    "animationClips": 1
+  },
+  {
+    "id": "COM-FLAG-01",
+    "triangles": 668,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-24",
+    "triangles": 860,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-SHIELD-01",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-13",
+    "triangles": 2919,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-18",
+    "triangles": 4032,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-15",
+    "triangles": 648,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-19",
+    "triangles": 4140,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-RESPAWN-01",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-17",
+    "triangles": 4220,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-17",
+    "triangles": 4752,
+    "animationClips": 10
+  },
+  {
+    "id": "COM-PROJECTILE-02",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-POWER-04",
+    "triangles": 1236,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-09",
+    "triangles": 1080,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-11",
+    "triangles": 528,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-14",
+    "triangles": 1188,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-23-LOD1",
+    "triangles": 214,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-15",
+    "triangles": 648,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-11",
+    "triangles": 528,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-09",
+    "triangles": 1080,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-07",
+    "triangles": 704,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-FLAG-SPAWN-01",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-14",
+    "triangles": 1188,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-12",
+    "triangles": 108,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-TRACK-DECAL",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-20",
+    "triangles": 1188,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-07",
+    "triangles": 704,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-16",
+    "triangles": 1800,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-08",
+    "triangles": 5888,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-23",
+    "triangles": 1164,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-POWER-02",
+    "triangles": 1532,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-15",
+    "triangles": 648,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-23",
+    "triangles": 1164,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-17",
+    "triangles": 4752,
+    "animationClips": 10
+  },
+  {
+    "id": "COM-FX-WALL-CRACK",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-18",
+    "triangles": 4032,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-16",
+    "triangles": 1800,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-23-LOD1",
+    "triangles": 214,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-24",
+    "triangles": 860,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-08-LOD1",
+    "triangles": 1184,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-23",
+    "triangles": 1164,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-HELPER-01",
+    "triangles": 8524,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-11",
+    "triangles": 528,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-FX-MUZZLE",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-13",
+    "triangles": 2919,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-08",
+    "triangles": 5888,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-24",
+    "triangles": 3684,
+    "animationClips": 1
+  },
+  {
+    "id": "NJD-20",
+    "triangles": 1188,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-20",
+    "triangles": 1860,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-09-LOD1",
+    "triangles": 220,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-07-LOD1",
+    "triangles": 128,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-FX-DUST",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-TANK-01",
+    "triangles": 8524,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-10",
+    "triangles": 528,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-10",
+    "triangles": 528,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-16",
+    "triangles": 1800,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-08",
+    "triangles": 5888,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-21",
+    "triangles": 1404,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-FX-REBUILD",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-07-LOD1",
+    "triangles": 128,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-12",
+    "triangles": 108,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-13",
+    "triangles": 756,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-19",
+    "triangles": 4140,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-FX-HIT",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-22",
+    "triangles": 1344,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-PROJECTILE-01",
+    "triangles": 224,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-POWER-05",
+    "triangles": 816,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-21",
+    "triangles": 3020,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-19",
+    "triangles": 4140,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-22",
+    "triangles": 8672,
+    "animationClips": 2
+  },
+  {
+    "id": "BSC-09-LOD1",
+    "triangles": 220,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-07",
+    "triangles": 704,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-07-LOD1",
+    "triangles": 128,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-09-LOD1",
+    "triangles": 220,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-14",
+    "triangles": 1188,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-21",
+    "triangles": 1404,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-POWER-03",
+    "triangles": 816,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-23-LOD1",
+    "triangles": 214,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-POWER-01",
+    "triangles": 312,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-09",
+    "triangles": 1080,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-10",
+    "triangles": 528,
+    "animationClips": 0
+  },
+  {
+    "id": "COM-TANK-02",
+    "triangles": 8444,
+    "animationClips": 0
+  },
+  {
+    "id": "JPN-18",
+    "triangles": 7896,
+    "animationClips": 0
+  },
+  {
+    "id": "NJD-08-LOD1",
+    "triangles": 1184,
+    "animationClips": 0
+  },
+  {
+    "id": "BSC-12",
+    "triangles": 108,
+    "animationClips": 0
+  }
+]

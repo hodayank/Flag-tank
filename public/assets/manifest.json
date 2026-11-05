@@ -27,6 +27,8 @@
       "collisionRole": "tank",
       "materials": [
         "gold",
+        "linen",
+        "paint highlight COM-TANK-01",
         "paint-turquoise",
         "rubber",
         "wheel-rims"
@@ -61,6 +63,8 @@
       "collisionRole": "tank",
       "materials": [
         "gold",
+        "linen",
+        "paint highlight COM-TANK-02",
         "paint-coral",
         "rubber",
         "wheel-rims"
@@ -95,6 +99,8 @@
       "collisionRole": "tank",
       "materials": [
         "gold",
+        "linen",
+        "paint highlight COM-HELPER-01",
         "paint-turquoise",
         "rubber",
         "wheel-rims"
@@ -139,28 +145,34 @@
       "source": "authoring/NJD-07.blend",
       "runtime": "assets/models/NJD-07.glb",
       "dimensions": [
-        1.9268985986709595,
-        0.814999982714653,
-        1.850435495376587
+        1.9380026459693909,
+        0.8303043991327286,
+        1.8976079821586609
       ],
       "bounds": [
         [
-          -0.9641021490097046,
-          0.012500002980232239,
-          -0.9250325560569763
+          -0.9682990312576294,
+          -0.007139816880226135,
+          -0.9490095973014832
         ],
         [
-          0.9627964496612549,
-          0.8274999856948853,
-          0.9254029393196106
+          0.9697036147117615,
+          0.8231645822525024,
+          0.9485983848571777
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "NJD masonry",
-        "NJD variation"
+        "NJD block tint 0",
+        "NJD block tint 1",
+        "NJD block tint 2",
+        "NJD block tint 3",
+        "NJD block tint 4",
+        "NJD block tint 6",
+        "NJD block tint 7",
+        "NJD block tint 8"
       ],
       "animations": [],
       "lods": [
@@ -173,28 +185,33 @@
       "source": "authoring/NJD-08.blend",
       "runtime": "assets/models/NJD-08.glb",
       "dimensions": [
-        1.9472759366035461,
-        0.814999982714653,
-        1.8548969626426697
+        1.9367647767066956,
+        0.8253671079874039,
+        1.8942718505859375
       ],
       "bounds": [
         [
-          -0.97576904296875,
-          0.012500002980232239,
-          -0.9253969788551331
+          -0.9685470461845398,
+          -0.004548206925392151,
+          -0.9486287832260132
         ],
         [
-          0.9715068936347961,
-          0.8274999856948853,
-          0.9294999837875366
+          0.9682177305221558,
+          0.8208189010620117,
+          0.9456430673599243
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "NJD masonry",
-        "NJD variation",
+        "NJD block tint 0.001",
+        "NJD block tint 1.001",
+        "NJD block tint 2.001",
+        "NJD block tint 3.001",
+        "NJD block tint 4.001",
+        "NJD block tint 6.001",
+        "NJD block tint 8.001",
         "rubber"
       ],
       "animations": [],
@@ -208,20 +225,20 @@
       "source": "authoring/NJD-09.blend",
       "runtime": "assets/models/NJD-09.glb",
       "dimensions": [
-        1.7150791883468628,
+        1.1669332385063171,
         0.23000000417232513,
-        1.5565953254699707
+        1.9460362195968628
       ],
       "bounds": [
         [
-          -0.9021875262260437,
+          -0.6111114025115967,
           0.004999995231628418,
-          -0.5771519541740417
+          -1.0138834714889526
         ],
         [
-          0.8128916621208191,
+          0.5558218359947205,
           0.23499999940395355,
-          0.979443371295929
+          0.9321527481079102
         ]
       ],
       "forward": "+Z (runtime)",
@@ -241,28 +258,32 @@
       "source": "authoring/NJD-10.blend",
       "runtime": "assets/models/NJD-10.glb",
       "dimensions": [
-        1.9308776259422302,
-        0.814999982714653,
-        1.8507243394851685
+        1.9416080713272095,
+        0.8219274431467056,
+        1.8949092626571655
       ],
       "bounds": [
         [
-          -0.9663681983947754,
-          0.012500002980232239,
-          -0.9253140091896057
+          -0.9721437096595764,
+          -0.0007451921701431274,
+          -0.9492906928062439
         ],
         [
-          0.9645094275474548,
-          0.8274999856948853,
-          0.9254103302955627
+          0.9694643616676331,
+          0.8211822509765625,
+          0.9456185698509216
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "NJD masonry",
-        "NJD variation"
+        "NJD block tint 0.002",
+        "NJD block tint 4.002",
+        "NJD block tint 5.002",
+        "NJD block tint 6.002",
+        "NJD block tint 7.002",
+        "NJD block tint 8.002"
       ],
       "animations": [],
       "lods": [],
@@ -273,28 +294,32 @@
       "source": "authoring/NJD-11.blend",
       "runtime": "assets/models/NJD-11.glb",
       "dimensions": [
-        1.9377526640892029,
-        0.814999982714653,
-        1.849511444568634
+        1.938593327999115,
+        0.8277117013931274,
+        1.892505168914795
       ],
       "bounds": [
         [
-          -0.9730448126792908,
-          0.012500002980232239,
-          -0.9244465827941895
+          -0.9644650816917419,
+          -0.006851375102996826,
+          -0.9414517879486084
         ],
         [
-          0.9647078514099121,
-          0.8274999856948853,
-          0.9250648617744446
+          0.974128246307373,
+          0.8208603262901306,
+          0.9510533809661865
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "NJD masonry",
-        "NJD variation"
+        "NJD block tint 0.003",
+        "NJD block tint 1.003",
+        "NJD block tint 2.003",
+        "NJD block tint 3.003",
+        "NJD block tint 4.003",
+        "NJD block tint 7.003"
       ],
       "animations": [],
       "lods": [],
@@ -305,28 +330,35 @@
       "source": "authoring/NJD-23.blend",
       "runtime": "assets/models/NJD-23.glb",
       "dimensions": [
-        1.9383853673934937,
-        1.089999958872795,
-        1.8506815433502197
+        1.9800000190734863,
+        1.3162380307912827,
+        1.9199999570846558
       ],
       "bounds": [
         [
-          -0.9667151570320129,
-          0.012500002980232239,
-          -0.9254788160324097
+          -0.9900000095367432,
+          -0.006237968802452087,
+          -0.9599999785423279
         ],
         [
-          0.9716702103614807,
-          1.1024999618530273,
-          0.9252027273178101
+          0.9900000095367432,
+          1.3100000619888306,
+          0.9599999785423279
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "NJD masonry",
-        "NJD variation"
+        "NJD block tint 0.004",
+        "NJD block tint 1.004",
+        "NJD block tint 2.004",
+        "NJD block tint 3.004",
+        "NJD block tint 4.004",
+        "NJD block tint 5.004",
+        "NJD block tint 6.004",
+        "NJD block tint 7.004",
+        "NJD block tint 8.004"
       ],
       "animations": [],
       "lods": [
@@ -371,19 +403,19 @@
       "runtime": "assets/models/NJD-13.glb",
       "dimensions": [
         3.200000047683716,
-        3.125,
-        2.784999966621399
+        3.375,
+        3.1500000953674316
       ],
       "bounds": [
         [
           -1.600000023841858,
           0.0,
-          -1.375
+          -1.4500000476837158
         ],
         [
           1.600000023841858,
-          3.125,
-          1.409999966621399
+          3.375,
+          1.7000000476837158
         ]
       ],
       "forward": "+Z (runtime)",
@@ -391,8 +423,10 @@
       "collisionRole": "decoration",
       "materials": [
         "NJD masonry",
+        "NJD variation",
         "rubber",
-        "warm-timber"
+        "warm-timber",
+        "wheel-rims"
       ],
       "animations": [],
       "lods": [],
@@ -499,20 +533,20 @@
       "source": "authoring/NJD-17.blend",
       "runtime": "assets/models/NJD-17.glb",
       "dimensions": [
-        3.120518207550049,
-        2.5125467777252197,
-        3.120518207550049
+        3.243016242980957,
+        2.4675779342651367,
+        3.1303977966308594
       ],
       "bounds": [
         [
-          -1.5602591037750244,
+          -1.6215081214904785,
           0.0,
-          -1.5602591037750244
+          -1.5651988983154297
         ],
         [
-          1.5602591037750244,
-          2.5125467777252197,
-          1.5602591037750244
+          1.6215081214904785,
+          2.4675779342651367,
+          1.5651988983154297
         ]
       ],
       "forward": "+Z (runtime)",
@@ -523,7 +557,18 @@
         "terracotta",
         "warm-timber"
       ],
-      "animations": [],
+      "animations": [
+        "NJD-17-ambient-0",
+        "NJD-17-ambient-1",
+        "NJD-17-ambient-2",
+        "NJD-17-ambient-3",
+        "NJD-17-ambient-4",
+        "NJD-17-ambient-5",
+        "NJD-17-ambient-6",
+        "NJD-17-ambient-7",
+        "NJD-17-ambient-8",
+        "NJD-17-ambient-9"
+      ],
       "lods": [],
       "provenance": "Original procedural Blender geometry; authoring/build.py"
     },
@@ -532,20 +577,20 @@
       "source": "authoring/NJD-18.blend",
       "runtime": "assets/models/NJD-18.glb",
       "dimensions": [
-        1.808393955230713,
+        1.5720670223236084,
         0.39859306439757347,
-        1.3240290880203247
+        1.4225603342056274
       ],
       "bounds": [
         [
-          -0.9008909463882446,
+          -0.8069887757301331,
           -0.03929653391242027,
-          -0.7891861200332642
+          -0.7356973886489868
         ],
         [
-          0.9075030088424683,
+          0.7650782465934753,
           0.3592965304851532,
-          0.5348429679870605
+          0.6868629455566406
         ]
       ],
       "forward": "+Z (runtime)",
@@ -660,20 +705,20 @@
       "source": "authoring/NJD-22.blend",
       "runtime": "assets/models/NJD-22.glb",
       "dimensions": [
-        1.1399999856948853,
-        1.1049998998641968,
-        0.4399999976158142
+        1.6495771408081055,
+        1.0675000697374344,
+        0.5199999958276749
       ],
       "bounds": [
         [
-          -0.5699999928474426,
-          0.0,
-          -0.2199999988079071
+          -0.8247885704040527,
+          0.04999999701976776,
+          -0.23000000417232513
         ],
         [
-          0.5699999928474426,
-          1.1049998998641968,
-          0.2199999988079071
+          0.8247885704040527,
+          1.1175000667572021,
+          0.28999999165534973
         ]
       ],
       "forward": "+Z (runtime)",
@@ -682,9 +727,14 @@
       "materials": [
         "linen",
         "paint-coral",
-        "terracotta"
+        "rubber",
+        "warm skin",
+        "warm-timber"
       ],
-      "animations": [],
+      "animations": [
+        "NJD-22-ambient-0",
+        "NJD-22-ambient-1"
+      ],
       "lods": [],
       "provenance": "Original procedural Blender geometry; authoring/build.py"
     },
@@ -725,28 +775,34 @@
       "source": "authoring/BSC-07.blend",
       "runtime": "assets/models/BSC-07.glb",
       "dimensions": [
-        1.9367040991783142,
-        0.814999982714653,
-        1.8506870865821838
+        1.9350944757461548,
+        0.8272935003042221,
+        1.8933332562446594
       ],
       "bounds": [
         [
-          -0.9690649509429932,
-          0.012500002980232239,
-          -0.9254223108291626
+          -0.9672125577926636,
+          -0.005601987242698669,
+          -0.9469562768936157
         ],
         [
-          0.967639148235321,
-          0.8274999856948853,
-          0.9252647757530212
+          0.9678819179534912,
+          0.8216915130615234,
+          0.9463769793510437
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "BSC masonry",
-        "BSC variation"
+        "BSC block tint 0",
+        "BSC block tint 2",
+        "BSC block tint 3",
+        "BSC block tint 4",
+        "BSC block tint 5",
+        "BSC block tint 6",
+        "BSC block tint 7",
+        "BSC block tint 8"
       ],
       "animations": [],
       "lods": [
@@ -759,28 +815,33 @@
       "source": "authoring/BSC-08.blend",
       "runtime": "assets/models/BSC-08.glb",
       "dimensions": [
-        1.9281724095344543,
-        0.814999982714653,
-        1.8545316457748413
+        1.9387184977531433,
+        0.8277378231287003,
+        1.8933259844779968
       ],
       "bounds": [
         [
-          -0.9618912935256958,
-          0.012500002980232239,
-          -0.9250316619873047
+          -0.9691935777664185,
+          -0.007811203598976135,
+          -0.9465257525444031
         ],
         [
-          0.9662811160087585,
-          0.8274999856948853,
-          0.9294999837875366
+          0.9695249199867249,
+          0.8199266195297241,
+          0.9468002319335938
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "BSC masonry",
-        "BSC variation",
+        "BSC block tint 1.001",
+        "BSC block tint 2.001",
+        "BSC block tint 3.001",
+        "BSC block tint 5.001",
+        "BSC block tint 6.001",
+        "BSC block tint 7.001",
+        "BSC block tint 8.001",
         "rubber"
       ],
       "animations": [],
@@ -794,20 +855,20 @@
       "source": "authoring/BSC-09.blend",
       "runtime": "assets/models/BSC-09.glb",
       "dimensions": [
-        1.6898598670959473,
+        1.8484474420547485,
         0.23000000417232513,
-        1.8862676620483398
+        1.4691965579986572
       ],
       "bounds": [
         [
-          -0.7624285221099854,
+          -0.9792352914810181,
           0.004999995231628418,
-          -0.9830055832862854
+          -0.49586057662963867
         ],
         [
-          0.9274313449859619,
+          0.8692121505737305,
           0.23499999940395355,
-          0.9032620787620544
+          0.9733359813690186
         ]
       ],
       "forward": "+Z (runtime)",
@@ -827,28 +888,34 @@
       "source": "authoring/BSC-10.blend",
       "runtime": "assets/models/BSC-10.glb",
       "dimensions": [
-        1.9394763112068176,
-        0.814999982714653,
-        1.849794328212738
+        1.9339652061462402,
+        0.8275645524263382,
+        1.8819756507873535
       ],
       "bounds": [
         [
-          -0.9685715436935425,
-          0.012500002980232239,
-          -0.9246037602424622
+          -0.9715757369995117,
+          -0.004695013165473938,
+          -0.9438858032226562
         ],
         [
-          0.9709047675132751,
-          0.8274999856948853,
-          0.9251905679702759
+          0.9623894691467285,
+          0.8228695392608643,
+          0.9380898475646973
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "BSC masonry",
-        "BSC variation"
+        "BSC block tint 0.002",
+        "BSC block tint 1.002",
+        "BSC block tint 2.002",
+        "BSC block tint 3.002",
+        "BSC block tint 4.002",
+        "BSC block tint 5.002",
+        "BSC block tint 7.002",
+        "BSC block tint 8.002"
       ],
       "animations": [],
       "lods": [],
@@ -859,28 +926,32 @@
       "source": "authoring/BSC-11.blend",
       "runtime": "assets/models/BSC-11.glb",
       "dimensions": [
-        1.924134075641632,
-        0.814999982714653,
-        1.8502767086029053
+        1.9370678067207336,
+        0.8253326416015625,
+        1.8988143801689148
       ],
       "bounds": [
         [
-          -0.9710178971290588,
-          0.012500002980232239,
-          -0.9253755807876587
+          -0.9658688306808472,
+          -0.006997108459472656,
+          -0.9485535025596619
         ],
         [
-          0.9531161785125732,
-          0.8274999856948853,
-          0.9249011278152466
+          0.9711989760398865,
+          0.8183355331420898,
+          0.9502608776092529
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "BSC masonry",
-        "BSC variation"
+        "BSC block tint 0.003",
+        "BSC block tint 2.003",
+        "BSC block tint 4.003",
+        "BSC block tint 5.003",
+        "BSC block tint 7.003",
+        "BSC block tint 8.003"
       ],
       "animations": [],
       "lods": [],
@@ -891,28 +962,35 @@
       "source": "authoring/BSC-23.blend",
       "runtime": "assets/models/BSC-23.glb",
       "dimensions": [
-        1.9290595650672913,
-        1.089999958872795,
-        1.851076066493988
+        1.9800000190734863,
+        1.31815505027771,
+        1.9199999570846558
       ],
       "bounds": [
         [
-          -0.9640202522277832,
-          0.012500002980232239,
-          -0.9255319833755493
+          -0.9900000095367432,
+          -0.008154988288879395,
+          -0.9599999785423279
         ],
         [
-          0.9650393128395081,
-          1.1024999618530273,
-          0.9255440831184387
+          0.9900000095367432,
+          1.3100000619888306,
+          0.9599999785423279
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "BSC masonry",
-        "BSC variation"
+        "BSC block tint 0.004",
+        "BSC block tint 1.004",
+        "BSC block tint 2.004",
+        "BSC block tint 3.004",
+        "BSC block tint 4.004",
+        "BSC block tint 5.004",
+        "BSC block tint 6.004",
+        "BSC block tint 7.004",
+        "BSC block tint 8.004"
       ],
       "animations": [],
       "lods": [
@@ -957,19 +1035,19 @@
       "runtime": "assets/models/BSC-13.glb",
       "dimensions": [
         3.200000047683716,
-        3.125,
-        2.784999966621399
+        3.375,
+        3.1500000953674316
       ],
       "bounds": [
         [
           -1.600000023841858,
           0.0,
-          -1.375
+          -1.4500000476837158
         ],
         [
           1.600000023841858,
-          3.125,
-          1.409999966621399
+          3.375,
+          1.7000000476837158
         ]
       ],
       "forward": "+Z (runtime)",
@@ -977,8 +1055,10 @@
       "collisionRole": "decoration",
       "materials": [
         "BSC masonry",
+        "BSC variation",
         "rubber",
-        "warm-timber"
+        "warm-timber",
+        "wheel-rims"
       ],
       "animations": [],
       "lods": [],
@@ -1085,20 +1165,20 @@
       "source": "authoring/BSC-17.blend",
       "runtime": "assets/models/BSC-17.glb",
       "dimensions": [
-        3.120518207550049,
-        2.5125467777252197,
-        3.120518207550049
+        3.243016242980957,
+        2.4675779342651367,
+        3.1303977966308594
       ],
       "bounds": [
         [
-          -1.5602591037750244,
+          -1.6215081214904785,
           0.0,
-          -1.5602591037750244
+          -1.5651988983154297
         ],
         [
-          1.5602591037750244,
-          2.5125467777252197,
-          1.5602591037750244
+          1.6215081214904785,
+          2.4675779342651367,
+          1.5651988983154297
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1109,7 +1189,18 @@
         "terracotta",
         "warm-timber"
       ],
-      "animations": [],
+      "animations": [
+        "BSC-17-ambient-0",
+        "BSC-17-ambient-1",
+        "BSC-17-ambient-2",
+        "BSC-17-ambient-3",
+        "BSC-17-ambient-4",
+        "BSC-17-ambient-5",
+        "BSC-17-ambient-6",
+        "BSC-17-ambient-7",
+        "BSC-17-ambient-8",
+        "BSC-17-ambient-9"
+      ],
       "lods": [],
       "provenance": "Original procedural Blender geometry; authoring/build.py"
     },
@@ -1118,20 +1209,20 @@
       "source": "authoring/BSC-18.blend",
       "runtime": "assets/models/BSC-18.glb",
       "dimensions": [
-        1.7351988554000854,
+        1.7261788845062256,
         0.39859306439757347,
-        1.6352711915969849
+        1.5574880242347717
       ],
       "bounds": [
         [
-          -0.9275515675544739,
+          -0.9282571077346802,
           -0.03929653391242027,
-          -0.8022300601005554
+          -0.8016059398651123
         ],
         [
-          0.8076472878456116,
+          0.7979217767715454,
           0.3592965304851532,
-          0.8330411314964294
+          0.7558820843696594
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1149,13 +1240,13 @@
       "source": "authoring/BSC-19.blend",
       "runtime": "assets/models/BSC-19.glb",
       "dimensions": [
-        1.8126999735832214,
+        1.7999999523162842,
         0.39859306439757347,
         1.600000023841858
       ],
       "bounds": [
         [
-          -0.9126999974250793,
+          -0.8999999761581421,
           -0.03929653391242027,
           -0.800000011920929
         ],
@@ -1244,20 +1335,20 @@
       "source": "authoring/BSC-22.blend",
       "runtime": "assets/models/BSC-22.glb",
       "dimensions": [
-        1.2329877614974976,
+        1.5270296335220337,
         0.6000000089406967,
-        1.0239923298358917
+        1.4094107151031494
       ],
       "bounds": [
         [
-          -0.7592822313308716,
+          -0.8766729831695557,
           -0.10000000894069672,
-          -0.6463020443916321
+          -0.7488847970962524
         ],
         [
-          0.473705530166626,
+          0.650356650352478,
           0.5,
-          0.37769028544425964
+          0.660525918006897
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1307,28 +1398,33 @@
       "source": "authoring/JPN-07.blend",
       "runtime": "assets/models/JPN-07.glb",
       "dimensions": [
-        1.9405298829078674,
-        0.814999982714653,
-        1.8506823182106018
+        1.936783254146576,
+        0.827661857008934,
+        1.9011833667755127
       ],
       "bounds": [
         [
-          -0.9712823629379272,
-          0.012500002980232239,
-          -0.9252431392669678
+          -0.9697251319885254,
+          -0.005609497427940369,
+          -0.9517585039138794
         ],
         [
-          0.9692475199699402,
-          0.8274999856948853,
-          0.925439178943634
+          0.9670581221580505,
+          0.8220523595809937,
+          0.9494248628616333
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "JPN masonry",
-        "JPN variation"
+        "JPN block tint 1",
+        "JPN block tint 3",
+        "JPN block tint 4",
+        "JPN block tint 5",
+        "JPN block tint 6",
+        "JPN block tint 7",
+        "JPN block tint 8"
       ],
       "animations": [],
       "lods": [
@@ -1341,28 +1437,33 @@
       "source": "authoring/JPN-08.blend",
       "runtime": "assets/models/JPN-08.glb",
       "dimensions": [
-        1.9395660758018494,
-        0.814999982714653,
-        1.8549054265022278
+        1.9381685853004456,
+        0.8273621797561646,
+        1.8983381390571594
       ],
       "bounds": [
         [
-          -0.972975492477417,
-          0.012500002980232239,
-          -0.9254054427146912
+          -0.9684116244316101,
+          -0.005332350730895996,
+          -0.9455257654190063
         ],
         [
-          0.9665905833244324,
-          0.8274999856948853,
-          0.9294999837875366
+          0.9697569608688354,
+          0.8220298290252686,
+          0.9528123736381531
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "JPN masonry",
-        "JPN variation",
+        "JPN block tint 0.001",
+        "JPN block tint 1.001",
+        "JPN block tint 2.001",
+        "JPN block tint 3.001",
+        "JPN block tint 4.001",
+        "JPN block tint 6.001",
+        "JPN block tint 8.001",
         "rubber"
       ],
       "animations": [],
@@ -1376,20 +1477,20 @@
       "source": "authoring/JPN-09.blend",
       "runtime": "assets/models/JPN-09.glb",
       "dimensions": [
-        1.4105157852172852,
+        1.851713240146637,
         0.23000000417232513,
-        1.381322205066681
+        1.466277539730072
       ],
       "bounds": [
         [
-          -0.4431438446044922,
+          -0.9274705648422241,
           0.004999995231628418,
-          -0.7536283135414124
+          -0.583686351776123
         ],
         [
-          0.967371940612793,
+          0.9242426753044128,
           0.23499999940395355,
-          0.6276938915252686
+          0.882591187953949
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1409,28 +1510,34 @@
       "source": "authoring/JPN-10.blend",
       "runtime": "assets/models/JPN-10.glb",
       "dimensions": [
-        1.9277157187461853,
-        0.814999982714653,
-        1.8482025265693665
+        1.9321197271347046,
+        0.8301575481891632,
+        1.8931308388710022
       ],
       "bounds": [
         [
-          -0.9563916325569153,
-          0.012500002980232239,
-          -0.9231554865837097
+          -0.9733264446258545,
+          -0.0083446204662323,
+          -0.9453689455986023
         ],
         [
-          0.97132408618927,
-          0.8274999856948853,
-          0.9250470399856567
+          0.9587932825088501,
+          0.8218129277229309,
+          0.9477618932723999
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "JPN masonry",
-        "JPN variation"
+        "JPN block tint 0.002",
+        "JPN block tint 1.002",
+        "JPN block tint 2.002",
+        "JPN block tint 3.002",
+        "JPN block tint 4.002",
+        "JPN block tint 5.002",
+        "JPN block tint 6.002",
+        "JPN block tint 7.002"
       ],
       "animations": [],
       "lods": [],
@@ -1441,28 +1548,33 @@
       "source": "authoring/JPN-11.blend",
       "runtime": "assets/models/JPN-11.glb",
       "dimensions": [
-        1.9295334815979004,
-        0.814999982714653,
-        1.8493648767471313
+        1.9259949326515198,
+        0.8253097236156464,
+        1.886242151260376
       ],
       "bounds": [
         [
-          -0.9672979116439819,
-          0.012500002980232239,
-          -0.9242797493934631
+          -0.96097332239151,
+          -0.0071586668491363525,
+          -0.9434943795204163
         ],
         [
-          0.9622355699539185,
-          0.8274999856948853,
-          0.9250851273536682
+          0.9650216102600098,
+          0.81815105676651,
+          0.9427477717399597
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "JPN masonry",
-        "JPN variation"
+        "JPN block tint 1.003",
+        "JPN block tint 2.003",
+        "JPN block tint 3.003",
+        "JPN block tint 4.003",
+        "JPN block tint 5.003",
+        "JPN block tint 6.003",
+        "JPN block tint 8.003"
       ],
       "animations": [],
       "lods": [],
@@ -1473,28 +1585,35 @@
       "source": "authoring/JPN-23.blend",
       "runtime": "assets/models/JPN-23.glb",
       "dimensions": [
-        1.939010202884674,
-        1.089999958872795,
-        1.8506978154182434
+        1.9800000190734863,
+        1.3176825642585754,
+        1.9199999570846558
       ],
       "bounds": [
         [
-          -0.9729782342910767,
-          0.012500002980232239,
-          -0.9252417683601379
+          -0.9900000095367432,
+          -0.007682502269744873,
+          -0.9599999785423279
         ],
         [
-          0.9660319685935974,
-          1.1024999618530273,
-          0.9254560470581055
+          0.9900000095367432,
+          1.3100000619888306,
+          0.9599999785423279
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "wall",
       "materials": [
-        "JPN masonry",
-        "JPN variation"
+        "JPN block tint 0.004",
+        "JPN block tint 1.004",
+        "JPN block tint 2.004",
+        "JPN block tint 3.004",
+        "JPN block tint 4.004",
+        "JPN block tint 5.004",
+        "JPN block tint 6.004",
+        "JPN block tint 7.004",
+        "JPN block tint 8.004"
       ],
       "animations": [],
       "lods": [
@@ -1667,20 +1786,20 @@
       "source": "authoring/JPN-17.blend",
       "runtime": "assets/models/JPN-17.glb",
       "dimensions": [
-        2.458465814590454,
-        2.9867279529571533,
-        2.5463764667510986
+        2.0600817799568176,
+        3.098299741744995,
+        2.1814751029014587
       ],
       "bounds": [
         [
-          -1.2809092998504639,
+          -0.8777554631233215,
           0.0,
-          -1.2609940767288208
+          -0.8350793719291687
         ],
         [
-          1.1775565147399902,
-          2.9867279529571533,
-          1.2853823900222778
+          1.182326316833496,
+          3.098299741744995,
+          1.34639573097229
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1699,20 +1818,20 @@
       "source": "authoring/JPN-18.blend",
       "runtime": "assets/models/JPN-18.glb",
       "dimensions": [
-        0.9049086570739746,
+        0.42493924126029015,
         1.9400000423192978,
-        0.511994481086731
+        0.39370428770780563
       ],
       "bounds": [
         [
-          -0.5232663750648499,
+          -0.4126884639263153,
           0.01000000536441803,
-          -0.20429262518882751
+          -0.2738012671470642
         ],
         [
-          0.38164228200912476,
+          0.012250777333974838,
           1.9500000476837158,
-          0.30770185589790344
+          0.11990302056074142
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1730,18 +1849,18 @@
       "source": "authoring/JPN-19.blend",
       "runtime": "assets/models/JPN-19.glb",
       "dimensions": [
-        1.7999999523162842,
+        1.8126593828201294,
         0.39859306439757347,
-        1.6327728033065796
+        1.600000023841858
       ],
       "bounds": [
         [
           -0.8999999761581421,
           -0.03929653391242027,
-          -0.8327727913856506
+          -0.800000011920929
         ],
         [
-          0.8999999761581421,
+          0.9126594066619873,
           0.3592965304851532,
           0.800000011920929
         ]
@@ -1826,31 +1945,36 @@
       "source": "authoring/JPN-22.blend",
       "runtime": "assets/models/JPN-22.glb",
       "dimensions": [
-        0.4399999976158142,
-        1.1049998998641968,
-        0.4399999976158142
+        1.0892019271850586,
+        1.209999993443489,
+        0.7799999713897705
       ],
       "bounds": [
         [
-          -0.2199999988079071,
-          0.0,
-          -0.2199999988079071
+          -0.42478853464126587,
+          0.04999999701976776,
+          -0.38999998569488525
         ],
         [
-          0.2199999988079071,
-          1.1049998998641968,
-          0.2199999988079071
+          0.6644133925437927,
+          1.2599999904632568,
+          0.38999998569488525
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "decoration",
       "materials": [
+        "linen",
         "paint-turquoise",
-        "terracotta",
-        "warm-timber"
+        "rubber",
+        "warm skin",
+        "warm-timber",
+        "wheel-rims"
       ],
-      "animations": [],
+      "animations": [
+        "JPN-22-ambient-0"
+      ],
       "lods": [],
       "provenance": "Original procedural Blender geometry; authoring/build.py"
     },
@@ -1859,20 +1983,20 @@
       "source": "authoring/JPN-24.blend",
       "runtime": "assets/models/JPN-24.glb",
       "dimensions": [
-        1.0499999523162842,
+        1.149999976158142,
         0.5837115049362183,
-        0.6099999845027924
+        0.8500000238418579
       ],
       "bounds": [
         [
-          -0.47999995946884155,
+          -0.574999988079071,
           0.0,
-          -0.28999999165534973
+          -0.42500001192092896
         ],
         [
-          0.5699999928474426,
+          0.574999988079071,
           0.5837115049362183,
-          0.3199999928474426
+          0.42500001192092896
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1880,9 +2004,13 @@
       "collisionRole": "decoration",
       "materials": [
         "linen",
+        "paint-coral",
+        "rubber",
         "terracotta"
       ],
-      "animations": [],
+      "animations": [
+        "JPN-24-ambient-0"
+      ],
       "lods": [],
       "provenance": "Original procedural Blender geometry; authoring/build.py"
     },
@@ -1891,20 +2019,20 @@
       "source": "authoring/COM-POWER-01.blend",
       "runtime": "assets/models/COM-POWER-01.glb",
       "dimensions": [
-        0.7599999904632568,
-        0.7100000195205212,
-        0.7599999904632568
+        0.8399999737739563,
+        0.7499999925494194,
+        0.8399999737739563
       ],
       "bounds": [
         [
-          -0.3799999952316284,
-          0.019999999552965164,
-          -0.3799999952316284
+          -0.41999998688697815,
+          0.009999997913837433,
+          -0.41999998688697815
         ],
         [
-          0.3799999952316284,
-          0.7300000190734863,
-          0.3799999952316284
+          0.41999998688697815,
+          0.7599999904632568,
+          0.41999998688697815
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1912,6 +2040,7 @@
       "collisionRole": "pickup",
       "materials": [
         "gold",
+        "linen",
         "paint-turquoise"
       ],
       "animations": [],
@@ -1923,51 +2052,20 @@
       "source": "authoring/COM-POWER-02.blend",
       "runtime": "assets/models/COM-POWER-02.glb",
       "dimensions": [
-        0.7599999904632568,
-        0.7100000195205212,
-        0.7599999904632568
+        0.8399999737739563,
+        0.7499999925494194,
+        0.8399999737739563
       ],
       "bounds": [
         [
-          -0.3799999952316284,
-          0.019999999552965164,
-          -0.3799999952316284
+          -0.41999998688697815,
+          0.009999997913837433,
+          -0.41999998688697815
         ],
         [
-          0.3799999952316284,
-          0.7300000190734863,
-          0.3799999952316284
-        ]
-      ],
-      "forward": "+Z (runtime)",
-      "pivot": "ground center",
-      "collisionRole": "pickup",
-      "materials": [
-        "gold"
-      ],
-      "animations": [],
-      "lods": [],
-      "provenance": "Original procedural Blender geometry; authoring/build.py"
-    },
-    {
-      "id": "COM-POWER-03",
-      "source": "authoring/COM-POWER-03.blend",
-      "runtime": "assets/models/COM-POWER-03.glb",
-      "dimensions": [
-        0.7599999904632568,
-        0.7100000195205212,
-        0.7599999904632568
-      ],
-      "bounds": [
-        [
-          -0.3799999952316284,
-          0.019999999552965164,
-          -0.3799999952316284
-        ],
-        [
-          0.3799999952316284,
-          0.7300000190734863,
-          0.3799999952316284
+          0.41999998688697815,
+          0.7599999904632568,
+          0.41999998688697815
         ]
       ],
       "forward": "+Z (runtime)",
@@ -1982,32 +2080,66 @@
       "provenance": "Original procedural Blender geometry; authoring/build.py"
     },
     {
-      "id": "COM-POWER-04",
-      "source": "authoring/COM-POWER-04.blend",
-      "runtime": "assets/models/COM-POWER-04.glb",
+      "id": "COM-POWER-03",
+      "source": "authoring/COM-POWER-03.blend",
+      "runtime": "assets/models/COM-POWER-03.glb",
       "dimensions": [
-        0.7599999904632568,
-        0.7100000195205212,
-        0.7599999904632568
+        0.8399999737739563,
+        0.7899999544024467,
+        0.8399999737739563
       ],
       "bounds": [
         [
-          -0.3799999952316284,
-          0.019999999552965164,
-          -0.3799999952316284
+          -0.41999998688697815,
+          0.009999997913837433,
+          -0.41999998688697815
         ],
         [
-          0.3799999952316284,
-          0.7300000190734863,
-          0.3799999952316284
+          0.41999998688697815,
+          0.7999999523162842,
+          0.41999998688697815
         ]
       ],
       "forward": "+Z (runtime)",
       "pivot": "ground center",
       "collisionRole": "pickup",
       "materials": [
-        "foliage",
-        "gold"
+        "gold",
+        "linen",
+        "paint-coral"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-POWER-04",
+      "source": "authoring/COM-POWER-04.blend",
+      "runtime": "assets/models/COM-POWER-04.glb",
+      "dimensions": [
+        0.8399999737739563,
+        0.7499999925494194,
+        0.8399999737739563
+      ],
+      "bounds": [
+        [
+          -0.41999998688697815,
+          0.009999997913837433,
+          -0.41999998688697815
+        ],
+        [
+          0.41999998688697815,
+          0.7599999904632568,
+          0.41999998688697815
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "auto purple",
+        "gold",
+        "wheel-rims"
       ],
       "animations": [],
       "lods": [],
@@ -2018,20 +2150,20 @@
       "source": "authoring/COM-POWER-05.blend",
       "runtime": "assets/models/COM-POWER-05.glb",
       "dimensions": [
-        0.7599999904632568,
-        0.7100000195205212,
-        0.7599999904632568
+        0.8399999737739563,
+        0.7499999925494194,
+        0.8700000047683716
       ],
       "bounds": [
         [
-          -0.3799999952316284,
-          0.019999999552965164,
-          -0.3799999952316284
+          -0.41999998688697815,
+          0.009999997913837433,
+          -0.41999998688697815
         ],
         [
-          0.3799999952316284,
-          0.7300000190734863,
-          0.3799999952316284
+          0.41999998688697815,
+          0.7599999904632568,
+          0.45000001788139343
         ]
       ],
       "forward": "+Z (runtime)",

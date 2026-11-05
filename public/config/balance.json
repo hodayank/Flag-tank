@@ -34,5 +34,7 @@
   "reconnectGrace": 20,
   "snapshotRate": 10,
   "inputRate": 20,
-  "interpolation": 0.1
+  "interpolation": 0.1,
+  "helperSpeedMultiplier": 0.85,
+  "occupiedMargin": 0.15
 }

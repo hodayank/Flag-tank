@@ -1,4 +1,6 @@
-# Tank Flags · 0.1.0-alpha.1
+> **Current revision: 0.2.0-intermediate.1 — incomplete production scope.** Read [v3 verification](docs/v3-verification.md), [full requirement audit](docs/v3-coverage.md), and [visual comparison](docs/v3-comparison.md). Older verification documents describe the previous release and are historical.
+
+# Tank Flags · 0.2.0-intermediate.1
 
 An editable Three.js/TypeScript browser prerelease for Kids Hug. Two humans race to shared flags; there are no bases and no return-to-base scoring. **This is not a finished production game or a verified native Kids Hug integration.** See [verification](docs/verification.md) and [coverage](docs/coverage.md).
 
@@ -42,9 +44,9 @@ The asset build regenerates original Blender sources, GLBs, textures, PCM WAVs, 
 
 The package command creates:
 
-- `artifacts/tank-flags-0.1.0-alpha.1-source.zip` — one editable project root, includes authoring sources and generation scripts.
-- `artifacts/tank-flags-0.1.0-alpha.1-web.zip` — one compiled web root.
-- `artifacts/tank-flags-0.1.0-alpha.1.khgame` — ZIP-compatible package with manifest and SHA-256 integrity.
+- `artifacts/tank-flags-0.2.0-intermediate.1-source.zip` — one editable project root, includes authoring sources and generation scripts.
+- `artifacts/tank-flags-0.2.0-intermediate.1-web.zip` — one compiled web root.
+- `artifacts/tank-flags-0.2.0-intermediate.1.khgame` — ZIP-compatible package with manifest and SHA-256 integrity.
 - `artifacts/SHA256.json` — final archive sizes and hashes.
 
 No dependency on absolute workspace paths exists in these outputs. The relay is excluded from the game package. Source ZIP excludes node_modules, distribution and other ZIPs. `integrity.json` hashes all package files except itself. Hashes are integrity checks, not publisher signatures.

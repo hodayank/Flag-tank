@@ -37,7 +37,9 @@
     "reconnectGrace",
     "snapshotRate",
     "inputRate",
-    "interpolation"
+    "interpolation",
+    "helperSpeedMultiplier",
+    "occupiedMargin"
   ],
   "additionalProperties": false,
   "properties": {
@@ -249,6 +251,18 @@
       "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
     },
     "interpolation": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "helperSpeedMultiplier": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "occupiedMargin": {
       "type": "number",
       "exclusiveMinimum": 0,
       "maximum": 10000,

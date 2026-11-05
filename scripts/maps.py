@@ -29,7 +29,26 @@ for q in candidates:
 walls=[(x,y) for y in range(1,16) for x in range(1,26) if (x,y) not in open_cells]
 for theme,prefix in [('najdi','NJD'),('basic','BSC'),('japan','JPN')]:
  dec=[]
- for i,(x,z,n) in enumerate([(-28,-12,13),(28,10,13),(-28,10,17),(28,-12,17),(-20,-19,20),(20,19,19),(-10,-19,21),(10,19,22),(-29,0,18),(29,0,16),(-20,19,24),(20,-19,15)]):dec.append(dict(asset=f'{prefix}-{n:02}',position=[x,0,z],rotation=0,scale=1,animation='ambient'))
+ def place(n,x,z,yaw=0,scale=1):dec.append(dict(asset=f'{prefix}-{n:02}',position=[x,0,z],rotation=yaw,scale=scale,animation='ambient'))
+ for z in [-21.5,21.5]:
+  for x in [-23,-12,0,12,23]:
+   place(13,x,z,0 if z<0 else 3.14159);place(16,x+2,z);place(18,x-2,z)
+ for x in [-31,31]:
+  for z in [-13,-5,6,14]:place(17,x,z,scale=1.2)
+  for z in [-10,1,11]:place(18,x,z)
+ if theme=='najdi':
+  place(21,-32,4);place(22,-32,4);place(24,-31,-12)
+  for z in [-8,-4,0,4]:place(19,31,z)
+  for z in [-7,-4,-1,2,5]:place(20,34,z)
+  place(24,29,16);place(15,30,14)
+ elif theme=='japan':
+  place(20,19,-21.5);place(21,19,-21.5);place(22,-32,4);place(19,-32,2);place(24,11,21.5)
+  for x in [-30,30]:place(18,x,0)
+ else:
+  place(20,-30,0);place(21,-30,0)
+  for x in [-30,30]:
+   for z in [-10,0,10]:place(19,x,z);place(22,x+1,z+2);place(24,x,z+3)
+
  data=dict(version=1,id=theme+'-01',columns=27,rows=17,units=2,spawns=[[1,15],[25,1]],walls=[dict(cell=list(q),asset=f'{prefix}-07') for q in walls],boundary=dict(min=[-27,-17],max=[27,17],asset=f'{prefix}-23'),flagCandidates=[list(q) for q in sorted(open_cells) if 4<q[0]<22 and 2<q[1]<14],powerupCandidates=[list(q) for q in sorted(open_cells)],decorations=dec)
  json.dump(data,open(root+'/public/maps/'+theme+'-01.json','w'),indent=2)
 print('wall density',len(walls)/375,'connected',connected(open_cells))

@@ -11,7 +11,7 @@ def zipdir(target,folder,prefix='',exclude=set()):
     z.write(p,os.path.join(prefix,rel))
 zipdir(out+'/'+web,root+'/dist','tank-flags-web')
 zipdir(out+'/'+kh,root+'/dist')
-zipdir(out+'/'+source,root,'tank-flags',{'node_modules','dist','artifacts','.git'})
+zipdir(out+'/'+source,root,'tank-flags',{'node_modules','dist','artifacts','downloads','.git'})
 # Re-read final archives and verify every packaged distributable hash.
 import hashlib,json
 for p,prefix in [(out+'/'+web,'tank-flags-web/'),(out+'/'+kh,'')]:
