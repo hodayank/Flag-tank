@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "master",
+    "music",
+    "effects",
+    "ambience",
+    "ui",
+    "maxEffects"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "master": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "music": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "effects": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "ambience": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "ui": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "maxEffects": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    }
+  }
+}

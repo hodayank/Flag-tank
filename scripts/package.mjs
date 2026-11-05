@@ -1,0 +1,10 @@
+import fs from 'node:fs';import path from 'node:path';import {createHash} from 'node:crypto';import {execFileSync} from 'node:child_process';
+const root=process.cwd(),out=path.join(root,'artifacts');fs.mkdirSync(out,{recursive:true});const version=JSON.parse(fs.readFileSync('package.json')).version;
+if(!fs.existsSync('dist/index.html'))throw Error('Run npm run build first');
+const manifest={format_version:1,game_id:'kids-hug.tank-flags',name:'Tank Flags',version,entry:'index.html',orientation:'landscape',players:{min:2,max:2},supports_offline:true,permissions:[],capabilities:{native_local_multiplayer:false,development_relay:true},api:{proposed_version:1,native_adapter_verified:false},notes:'Prerelease. Standalone LAN requires the separate trusted development relay. Native loader/transport not supplied.'};fs.writeFileSync('dist/manifest.json',JSON.stringify(manifest,null,2));
+function files(dir){return fs.readdirSync(dir,{withFileTypes:true}).sort((a,b)=>a.name.localeCompare(b.name)).flatMap(e=>e.isDirectory()?files(path.join(dir,e.name)):[path.join(dir,e.name)]);}
+const hashes={};for(const f of files('dist')){const rel=path.relative('dist',f).split(path.sep).join('/');if(rel==='integrity.json')continue;hashes[rel]=createHash('sha256').update(fs.readFileSync(f)).digest('hex');}fs.writeFileSync('dist/integrity.json',JSON.stringify({version:1,algorithm:'SHA-256',files:hashes},null,2));
+for(const [rel,digest]of Object.entries(hashes))if(createHash('sha256').update(fs.readFileSync('dist/'+rel)).digest('hex')!==digest)throw Error('Integrity mismatch '+rel);
+const web='tank-flags-'+version+'-web.zip',kh='tank-flags-'+version+'.khgame',source='tank-flags-'+version+'-source.zip';for(const n of [web,kh,source])fs.rmSync(out+'/'+n,{force:true});
+execFileSync('python3',['scripts/zip.py',root,out,web,kh,source]);
+const reports=Object.fromEntries([web,kh,source].map(f=>[f,{bytes:fs.statSync(out+'/'+f).size,sha256:createHash('sha256').update(fs.readFileSync(out+'/'+f)).digest('hex')}]));fs.writeFileSync(out+'/SHA256.json',JSON.stringify({version,packages:reports},null,2));console.log(JSON.stringify(reports,null,2));

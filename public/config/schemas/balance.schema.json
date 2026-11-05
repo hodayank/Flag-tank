@@ -1,0 +1,258 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "tickRate",
+    "duration",
+    "countdown",
+    "suddenDeath",
+    "speed",
+    "acceleration",
+    "deceleration",
+    "turnSpeed",
+    "hullRadius",
+    "health",
+    "damage",
+    "tapInterval",
+    "holdInterval",
+    "autoInterval",
+    "projectileSpeed",
+    "projectileLifetime",
+    "wallHits",
+    "rebuild",
+    "ghost",
+    "flagDelay",
+    "respawn",
+    "protection",
+    "pickupFirst",
+    "pickupInterval",
+    "pickupLifetime",
+    "buffDuration",
+    "shieldDuration",
+    "shieldHits",
+    "rapidFactor",
+    "helperHealth",
+    "inputTimeout",
+    "reconnectGrace",
+    "snapshotRate",
+    "inputRate",
+    "interpolation"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "tickRate": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "duration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "countdown": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "suddenDeath": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "speed": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "acceleration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "deceleration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "turnSpeed": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "hullRadius": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "health": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "damage": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "tapInterval": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "holdInterval": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "autoInterval": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "projectileSpeed": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "projectileLifetime": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "wallHits": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "rebuild": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "ghost": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "flagDelay": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "respawn": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "protection": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "pickupFirst": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "pickupInterval": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "pickupLifetime": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "buffDuration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "shieldDuration": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "shieldHits": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "rapidFactor": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "helperHealth": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "inputTimeout": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "reconnectGrace": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "snapshotRate": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "inputRate": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "interpolation": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    }
+  }
+}

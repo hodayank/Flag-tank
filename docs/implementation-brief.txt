@@ -1,0 +1,1410 @@
+You are the implementation and production agent for Tank Flags, a complete 3D multiplayer game designed to run independently in a browser and as an installable game package inside the Kids Hug application.
+
+This is an IMPLEMENTATION request. Build the game, create its assets, run it, test it, fix observed problems, and deliver the editable project and playable outputs. Do not respond with another prompt, a design proposal alone, or an unfinished scaffold described as a complete game.
+
+Read this entire brief and the attached TankFlags-Codex-Complete-Prompt-v2.md before implementation. The attached document is part of the requirements and contains the detailed asset catalogs, audio specifications, map guidance, draft SDK, networking protocol, and acceptance tests.
+
+If an attachment is missing, name the missing attachment and continue all work that does not depend on it. Do not claim to have inspected unavailable files.
+
+==================================================
+1. PROJECT IDENTITY AND REQUIRED OUTCOME
+==================================================
+
+Product: Kids Hug.
+Game: Tank Flags.
+Stable game ID: kids-hug.tank-flags.
+
+Create a warm, premium, stylized miniature 3D tank game for children and families.
+
+The primary game is a competitive race to collect shared golden flags:
+
+- Two human players.
+- Each human uses a separate device.
+- Both devices are on the same local network.
+- One human tank per team at the start.
+- An optional collectible helper tank can join each team.
+- The player with more collected flags wins.
+- This is NOT base defense.
+- Players do NOT carry flags back to a base.
+- There are no bases to destroy or protect.
+- Flags are shared objectives collected at their locations.
+- A fort or defensive flag position shown in a reference image is illustrative, not permission to change the rules.
+
+Deliver:
+
+1. A playable standalone browser version.
+2. The complete editable TypeScript project.
+3. Actual 3D models, textures, animations, effects, and audio.
+4. All three fully implemented visual themes.
+5. Functional game rules and multiplayer architecture.
+6. A .khgame package for Kids Hug integration.
+7. Full source and authoring assets in a clearly organized ZIP.
+8. Build, test, packaging, and integration instructions.
+9. An honest verification and remaining-work report.
+
+Do not stop after the first small scene. Use it as an early quality checkpoint, then continue the full implementation unless I explicitly ask you to pause for review.
+
+==================================================
+2. REFERENCE IMAGES AND PRIORITY
+==================================================
+
+Expected visual references:
+
+- Najdi asset library.png.
+- Classic 3D Game Asset Library.png.
+- Japanese Rural Game Asset Library.png.
+- Wide Najdi tank maze.png, the preferred closer framing reference previously identified as 01 WIDE.
+- Other supplied approved images where applicable.
+
+Inspect the images rather than relying only on their filenames.
+
+Priority:
+
+1. My latest explicit instructions.
+2. This implementation brief and its explicit updates.
+3. The attached complete production specification.
+4. Images for appearance, materials, silhouettes, lighting, framing, and environmental detail.
+5. Older prototypes only as potentially reusable mechanics references.
+
+Written rules govern gameplay and integration.
+Images govern the visual target.
+Do not import contradictory gameplay from an illustration.
+
+The rejected simple prototype is NOT the final visual target.
+
+The pictures are references for manufacturing real assets. They are not already usable 3D models.
+
+Do not:
+
+- Use the entire map image as a background and call it 3D.
+- Crop catalog objects into flat sprites and claim they are 3D models.
+- Bake catalog text or numbering onto model textures.
+- Replace required modeled objects with billboards.
+- Claim that generating new concept images implements the game.
+- Copy an unrelated game’s artwork, music, or protected branding.
+
+==================================================
+3. TECHNICAL IMPLEMENTATION
+==================================================
+
+Default stack:
+
+- TypeScript.
+- Three.js for browser-compatible WebGL 3D.
+- Vite or an equivalent reproducible build.
+- GLB/glTF 2.0 runtime models.
+- PBR materials and local texture assets.
+- Browser-compatible locally packaged audio.
+- A small fixed-step ground-plane simulation.
+- Static production output using relative paths.
+
+Choose compatible dependency versions, pin them, and include a real lockfile.
+
+No runtime CDN dependency.
+No remote script loading.
+No internet requirement for normal local gameplay.
+
+Separate modules for:
+
+- Simulation.
+- Collision.
+- Input.
+- Rendering.
+- Animation.
+- Audio.
+- UI.
+- Configuration.
+- Maps.
+- Host adapter.
+- Networking and serialization.
+- Asset loading.
+- Packaging.
+
+The simulation must be testable without WebGL.
+
+The world is genuinely 3D, but combat and movement occur on a 2D XZ ground plane:
+
+- +Y is up.
+- +Z is the tank’s canonical forward direction.
+- World units are meters.
+- No jumping, vertical combat, or uncontrolled rigid-body behavior.
+- Rendering meshes do not automatically define gameplay hitboxes.
+
+Implement proper resource cleanup:
+
+- Dispose geometry, textures, materials, and render resources.
+- Stop audio loops.
+- Unsubscribe host events.
+- Release pointer and keyboard state.
+- Clear timers and network listeners.
+- Prevent duplicate animation loops after restarting.
+
+==================================================
+4. VISUAL QUALITY TARGET
+==================================================
+
+The visual target is a polished stylized miniature world with:
+
+- Rounded, carefully shaped silhouettes.
+- Beveled edges.
+- Visible thickness and volume.
+- Soft contact shadows.
+- Warm daylight.
+- Restrained surface detail.
+- Distinct materials.
+- Clear gameplay readability.
+
+Avoid:
+
+- Unrefined cubes as final art.
+- Featureless cylinders as the final tank.
+- Pixel art.
+- Flat vector replacements.
+- Harsh neon.
+- Heavy bloom.
+- Excessively realistic military violence.
+- Dark shadows that hide paths.
+- Making every surface look like glossy plastic.
+
+Material examples:
+
+- Adobe: dry, dusty, warm ochre, irregular plaster and earthen grain.
+- Red brick: visible brick structure and mortar, terracotta variation.
+- Stone/packed earth: pale warm mineral surface.
+- Wood: restrained grain, framed construction, softened edges.
+- Tank metal: softly painted, mildly worn, restrained metallic response.
+- Tracks: dark rubber and mechanical detail.
+- Cloth: visible thickness and gentle folds.
+- Water: subtle movement and readable depth.
+
+Use one principal soft sun from the upper-left direction of the reference frame and gentle ambient fill.
+
+Canonical team colors:
+
+- Blue/turquoise.
+- Coral/red.
+
+Use a secondary shape or emblem distinction, not color alone.
+
+Golden flags must remain easy to distinguish against sand.
+
+==================================================
+5. CREATE ACTUAL 3D ASSETS
+==================================================
+
+Create real meshes, materials, textures, and animation data.
+
+Preferred authoring pipeline:
+
+- Blender.
+- Blender Python scripts where useful.
+- Editable .blend files.
+- GLB exports.
+- Reproducible generation/export scripts.
+- Original or properly licensed assets with provenance.
+
+Procedural modeling is acceptable when its final output meets the reference quality. A handful of raw primitives is an intermediate blockout, not a finished model.
+
+If a required authoring tool is unavailable:
+
+- Check available alternatives.
+- Finish independent work.
+- Report the exact missing capability.
+- Do not silently downgrade the requested final style.
+
+For every production asset record:
+
+- Stable asset ID.
+- Source file.
+- Runtime file.
+- Dimensions.
+- Forward axis.
+- Pivot.
+- Bounds.
+- Collision role.
+- Material slots.
+- Animation names.
+- LODs where appropriate.
+- License or original-generation provenance.
+
+Files must actually exist and load. A manifest entry is not an asset.
+
+TANK MODEL:
+
+Create a detailed stylized tank with:
+
+- Shaped beveled hull.
+- Distinct rotating turret.
+- Recoiling barrel.
+- Separate left and right tracks.
+- Road wheels.
+- Readable tread detail.
+- Appropriate small mechanical details.
+- Muzzle socket.
+- Hit-effect anchor.
+- Health-label anchor.
+- Ground shadow anchor.
+- Optional restrained antenna.
+
+Required hierarchy:
+
+root
+  hull
+  turret
+    barrel
+      muzzleSocket
+  leftTrack
+  rightTrack
+  wheels
+  hitSocket
+  healthAnchor
+  groundShadowAnchor
+
+Use the same canonical model and collision dimensions for both human teams and all three themes.
+
+Use NJD-01 as the canonical reference silhouette where the catalog boards differ. Recolor the rival rather than creating an unfairly different shape.
+
+The helper is a smaller member of the same visual family.
+
+Starting dimensions, adjustable through documented settings:
+
+- Grid cell: 2 meters.
+- Main tank visual width: approximately 1.30 m.
+- Main tank body length: approximately 1.65 m.
+- Gameplay hull width: 1.20 m.
+- Gameplay hull length: 1.50 m.
+- Decorative barrel envelope: approximately 2.05 m.
+- Wall cell footprint: 2 × 2 m.
+- Combat wall height: approximately 0.85 m.
+- Boundary height: approximately 1.2 m.
+
+The barrel does not enlarge movement collision or permit firing through walls.
+
+==================================================
+6. ASSET IDS AND THE THREE THEMES
+==================================================
+
+Maintain exact shared IDs in files, manifests, map definitions, and code.
+
+SHARED:
+
+COM-TANK-01: blue/turquoise human tank.
+COM-TANK-02: coral human tank.
+COM-HELPER-01: smaller helper, both team variants.
+COM-FLAG-01: plain golden flag, no national/religious symbol.
+COM-POWER-01: shield.
+COM-POWER-02: rapid fire.
+COM-POWER-03: stronger rocket.
+COM-POWER-04: automatic fire.
+COM-POWER-05: helper.
+COM-PROJECTILE-01: normal projectile.
+COM-PROJECTILE-02: stronger rocket.
+COM-SHIELD-01: shield visual.
+COM-FX-MUZZLE.
+COM-FX-HIT.
+COM-FX-WALL-CRACK.
+COM-FX-DUST.
+COM-FX-REBUILD.
+COM-TRACK-DECAL.
+COM-RESPAWN-01.
+COM-FLAG-SPAWN-01.
+
+The first six cells on each catalog board are shared reference aliases:
+01 blue tank, 02 rival, 03 helper, 04 flag, 05 powerup set, 06 effects set.
+
+NAJDI THEME:
+
+NJD-07: intact adobe wall.
+NJD-08: cracked adobe wall.
+NJD-09: adobe rubble.
+NJD-10: adobe corner.
+NJD-11: adobe T-junction.
+NJD-12: sandy ground.
+NJD-13: Najdi mud house.
+NJD-14: detailed wooden door.
+NJD-15: wooden crate.
+NJD-16: clay pots.
+NJD-17: date palm.
+NJD-18: grass patch.
+NJD-19: vegetable bed.
+NJD-20: irrigation channel.
+NJD-21: woven mat and dates basket.
+NJD-22: two peaceful seated boys.
+NJD-23: indestructible adobe boundary.
+NJD-24: small farm shelter.
+
+Najdi houses:
+
+- Mud plaster.
+- Flat parapet roofs.
+- Triangular ventilation details.
+- Dark warm timber doors.
+- Restrained geometric detailing.
+- Warm, believable material variation.
+
+The boys are peaceful background characters outside combat, in white Saudi clothing; one may have red/white headwear according to the reference.
+
+Use one shared mat/basket assembly rather than duplicating the props included in different catalog illustrations.
+
+Include palms, sparse cultivated greenery, planting rows, irrigation, pots, and a small shelter or shaded seating vignette where supported by the reference.
+
+Sand and adobe remain dominant.
+
+BASIC / CLASSIC THEME:
+
+BSC-07: intact red-brick wall.
+BSC-08: cracked red-brick wall.
+BSC-09: red-brick rubble.
+BSC-10: corner.
+BSC-11: T-junction.
+BSC-12: pale sandy ground.
+BSC-13: small cottage or shelter.
+BSC-14: wooden door.
+BSC-15: wooden crate.
+BSC-16: pots.
+BSC-17: ornamental palm/tree matching the actual board.
+BSC-18: low grass.
+BSC-19: small flowering shrub.
+BSC-20: water channel.
+BSC-21: wooden bridge.
+BSC-22: rounded rocks.
+BSC-23: indestructible brick boundary.
+BSC-24: reeds.
+
+Preserve red-brick identity.
+Do not turn this into another Najdi village.
+The board label GREEN TREE does not override the palm-like silhouette actually shown.
+
+JAPANESE COUNTRYSIDE THEME:
+
+JPN-07: intact pale earth-and-stone wall.
+JPN-08: cracked wall.
+JPN-09: pale rubble.
+JPN-10: corner.
+JPN-11: T-junction.
+JPN-12: light courtyard earth/sand.
+JPN-13: rural timber house.
+JPN-14: timber/sliding door.
+JPN-15: wooden crate.
+JPN-16: ceramic pots.
+JPN-17: sakura tree.
+JPN-18: bamboo.
+JPN-19: vegetable plot.
+JPN-20: koi pond.
+JPN-21: wooden footbridge.
+JPN-22: farmer with conical straw hat and watering can.
+JPN-23: indestructible stone boundary.
+JPN-24: resting calico cat.
+
+Houses have dark timber framing, light plaster infill, and blue-gray tiled roofs.
+
+Include:
+
+- Dimensional sakura branches and blossom clusters.
+- Sparse falling petals.
+- Segmented bamboo.
+- Planting rows.
+- Quiet pond water.
+- Two to five visible koi.
+- A bridge actually spanning the water.
+- Peaceful watering animation.
+- Resting cat animation.
+
+Keep all people, animals, planting, and decorative water outside combat.
+
+==================================================
+7. CAMERA AND MAP DESIGN
+==================================================
+
+Use a fixed overhead orthographic camera with visible 3D depth.
+
+Starting camera elevation: approximately 55 degrees above the ground.
+Tune against the approved closer reference, not the farther WIDER view.
+
+The active arena should occupy approximately 80–85% of the useful view, with a rich but narrow decorative perimeter.
+
+Requirements:
+
+- Whole playable arena visible in standard landscape.
+- Tanks readable on a phone.
+- Health labels readable.
+- No large empty central plaza.
+- No unnecessary distant framing.
+- No scenery blocking objectives or opponents.
+- No control overlay covering critical exits or objectives.
+
+For narrow screens, preserve fairness through landscape guidance, safe framing, or letterboxing. Do not crop important gameplay.
+
+Initial logical map:
+
+- 27 columns × 17 rows.
+- 2 m per cell.
+- X bounds approximately -27 to +27.
+- Z bounds approximately -17 to +17.
+- North is negative Z.
+- Cell coordinates are [column,row].
+- Cell center:
+  x = (column + 0.5 - 13.5) * 2
+  z = (row + 0.5 - 8.5) * 2
+
+Starting player cells:
+
+- [1,15].
+- [25,1].
+
+Use rotationally symmetric fairness and safe 3×3 spawn pockets.
+
+Target approximately 45–55% destructible blocked cells, excluding boundaries and spawn pockets, while preserving useful connected routes.
+
+Create dense readable corridors, staggered junctions, breakable shortcuts, and some local dead ends.
+
+Avoid:
+
+- Spawns trapped behind mandatory walls in every direction.
+- A single long shooting highway.
+- Unreachable objective candidates.
+- Decorative props inside playable corridors.
+- A maze that only looks connected but cannot be navigated.
+
+Deliver three concrete map JSON files:
+
+- najdi-01.
+- basic-01.
+- japan-01.
+
+Use the same fair logical maze initially, reskinned with different materials and perimeter scenery. Do not make one theme mechanically easier without documenting a later approved change.
+
+Map data must include:
+
+- Version.
+- Grid dimensions and units.
+- Spawn cells.
+- Wall cells and asset IDs.
+- Boundary geometry.
+- Flag candidates.
+- Powerup candidates.
+- Decorative asset placements.
+- Position, rotation, scale, animation assignment.
+
+Use the attached specification’s placement guidance for houses, farming areas, pond, seating, palms, and other perimeter groups.
+
+==================================================
+8. MATCH RULES
+==================================================
+
+One human tank per team initially.
+No permanent second tank or army.
+
+Provisional match defaults:
+
+- 180-second round.
+- 300-second selectable alternative.
+- Three-second shared countdown.
+- One active golden flag.
+- One point per collected flag.
+- New flag after approximately 1.3 seconds.
+
+These are documented trial defaults unless explicitly locked by the owner.
+
+FLAGS:
+
+- Collect by reaching the flag.
+- Collection awards exactly one point.
+- Remove the collected flag.
+- Spawn the next at an authoritative fair location.
+- Do not require returning to spawn.
+- Helpers cannot collect.
+- Disabled players retain scored points.
+- No permanent weapon upgrade from scoring.
+
+Fair placement considers traversable path cost and breakable-wall cost, not only straight-line distance.
+
+Never spawn flags:
+
+- Inside walls.
+- Inside tanks.
+- On decorative water.
+- In unreachable cells.
+- Repeatedly beside the leading player.
+
+Authority selects locations and communicates them. Clients do not independently randomize objectives.
+
+At time expiry:
+
+- Higher score wins.
+- Tie enters sudden death.
+- Clear the previous flag and pending normal spawn.
+- Spawn a fresh fair deciding flag after a shared transition.
+- First valid collection wins.
+- Provisional sudden-death timeout: 60 seconds.
+- If still tied, declare a draw.
+
+Resolve simultaneous collection consistently using entry timing and a seeded fair tie-break when necessary. Do not favor the host or award both players.
+
+==================================================
+9. MOVEMENT AND INPUT
+==================================================
+
+Mobile:
+
+- Left virtual movement joystick.
+- Large separate right fire button.
+- Independent pointer IDs.
+- Simultaneous movement and firing.
+- Proper pointer capture/cancel handling.
+- Safe-area support.
+- No browser scroll or pinch zoom during play.
+
+Desktop:
+
+- WASD or arrow keys.
+- Space to fire.
+- Handle Space correctly using a reliable keyboard mapping.
+- Do not treat OS key-repeat as multiple deliberate taps.
+
+Optional same-keyboard development mode:
+
+- IJKL and Enter for the second player.
+- Label it as development testing.
+- Do not present it as LAN multiplayer.
+
+Default aiming:
+
+- Face movement heading.
+- Retain last heading when stopped.
+- Smooth bounded hull rotation.
+- Short visual turret easing.
+- Actual projectile heading matches accepted simulation heading.
+
+Use analog 360-degree movement.
+Normalize diagonal input.
+Prevent faster diagonal travel.
+Use collision sliding without corner clipping.
+Allow turning while blocked.
+
+Initial settings:
+
+- Move speed: 5 m/s.
+- Acceleration: 18 m/s².
+- Deceleration: 22 m/s².
+- Turn rate: 300 degrees/s.
+
+Clear held movement/fire on:
+
+- Blur.
+- Pointer cancel.
+- Background.
+- Pause.
+- Disconnect.
+- Exit.
+
+==================================================
+10. FIRING AND PROJECTILES
+==================================================
+
+Human tanks do not fire automatically by default.
+
+Three distinct modes:
+
+1. Tap:
+   One shot per actual press edge, subject to a fair limit.
+
+2. Held fire:
+   Repeats while held, more slowly than deliberate tapping.
+
+3. Temporary auto-fire pickup:
+   Fires without holding until the buff expires.
+
+Initial settings:
+
+- Tap minimum interval: 0.16 s.
+- Hold interval: 0.43 s.
+- Hold delay: 0.43 s.
+- Projectile speed: 17 m/s.
+- Projectile lifetime: 3 s.
+- Ordinary tank damage: 25.
+
+Use one coherent cooldown model so a slow held-fire cooldown does not incorrectly suppress legal rapid taps.
+
+Projectiles:
+
+- Spawn at the muzzle.
+- Travel in actual accepted heading.
+- Hit the first valid collider.
+- Use swept collision or appropriate substeps.
+- Do not tunnel through walls or tanks.
+- Do not spawn on the far side of a wall.
+- End at the arena boundary.
+
+Friendly projectiles pass through friendly human/helper tanks without damaging them and continue toward the next valid collider.
+
+No default homing.
+No guaranteed hits.
+No shooting through walls.
+
+==================================================
+11. HEALTH, DISABLE AND RESPAWN
+==================================================
+
+Initial main health: 100.
+Ordinary damage: 25.
+
+Show real health above both players:
+
+- Team identity.
+- Health bar.
+- Numeric current/max.
+- Actual applied floating damage.
+
+Health and damage must reflect authoritative state.
+
+At zero health:
+
+- Disable once.
+- Play a friendly mechanical shutdown effect.
+- Remove combat collision.
+- Respawn after 3 seconds.
+- Restore full health.
+- Grant 2 seconds of protection.
+- End protection immediately when firing.
+
+No gore or violent explosion.
+No loss of already scored flags.
+No kill-score bonus.
+No lives/elimination system.
+
+Do not respawn inside walls or tanks.
+Use a safe reviewed fallback or wait until the spawn is clear.
+
+==================================================
+12. WALL DAMAGE AND REBUILD
+==================================================
+
+Each destructible cell requires two ordinary hits:
+
+intact → cracked → destroyed.
+
+First hit:
+
+- Actual damage state.
+- Readable cracks.
+- Small material-specific chips and dust.
+
+Second hit:
+
+- Open passage immediately.
+- Animate local fragments and dust.
+- Rubble becomes cosmetic and nonblocking.
+
+Cracked walls do not automatically heal in this initial design.
+
+Rebuild starts 10 seconds after complete destruction.
+
+During the last approximately 2.5 seconds:
+
+- Show a transparent ghost at the exact wall position.
+- Pulse gently.
+- Increase pulse frequency near completion.
+- No harsh flashing.
+- No separate warning banner.
+
+If a human or helper occupies the footprint plus a small safety margin:
+
+- Postpone rebuilding.
+- Keep the telegraph.
+- Rebuild only when clear.
+- Never trap, crush, teleport, or damage a unit.
+
+Restore wall health, collision, and authoritative existence on the same tick.
+
+Wall variants must share aligned pivots and footprints.
+Corners and T-junctions are modular visuals; damage remains per logical cell.
+
+==================================================
+13. POWERUPS AND HELPER
+==================================================
+
+Five powerups:
+
+SHIELD:
+- Absorb two enemy projectiles or expire after 5 seconds.
+- Whichever occurs first.
+- Show a readable shield and hit ripple.
+
+RAPID FIRE:
+- 15% higher firing rate for 8 seconds.
+- Divide relevant intervals by 1.15.
+- Preserve fair caps and firing-mode distinctions.
+
+STRONG ROCKET:
+- Next two shots have two wall-hit strength.
+- Expire after 8 seconds if unused.
+- No homing.
+- Initial tank/helper damage remains 25.
+
+AUTO FIRE:
+- Fire without holding for 8 seconds.
+- Initial interval: 0.43 seconds.
+- Return to normal manual control when it ends.
+
+HELPER:
+- Spawn one independent helper.
+- Maximum one active helper per team initially.
+- Smaller matching tank.
+- Two ordinary hits disable it.
+- Initial health: 50 at 25 damage per hit.
+- No automatic respawn.
+- No hidden ten-second lifetime.
+- Default lifetime is unlimited until disabled.
+- Cannot collect flags.
+- May coexist with one main-tank buff.
+- Continues living when its owner is disabled.
+- Uses collision, pathfinding, line of sight, and legal shooting.
+- Helps fight and open walls.
+- Does not have wall vision or guaranteed aim.
+- Avoids getting permanently stuck behind its owner.
+
+If the owner already has a helper, do not create another or consume the pickup without a clear consistent policy. Prefer leaving it available.
+
+Initial shared pickup settings:
+
+- First spawn after 5 seconds.
+- Spawn interval: 10 seconds.
+- Visible lifetime: 18 seconds.
+- At most two visible pickups.
+- Equal initial type weights.
+- Safe reachable placement.
+
+Only one temporary main-tank buff at once.
+A different new buff replaces the old one with feedback.
+Helper is independent.
+Main buff clears on owner disable.
+
+No laser, repair kit, permanent army, shop, or extra-life system in this scope.
+
+==================================================
+14. ANIMATION AND EFFECTS
+==================================================
+
+Implement actual runtime animation, not labels claiming motion exists.
+
+Tanks:
+
+- Subtle idle vibration without drifting.
+- Tracks and wheels follow movement.
+- Left/right track difference reflects turns.
+- Small suspension response.
+- Dust tied to movement and surface.
+- Barrel recoil approximately 0.08 s backward and 0.12 s return.
+- Brief muzzle flash.
+- Compact hit sparks and short paint/material response.
+- Friendly shutdown smoke.
+- Readable respawn formation and protection.
+
+Walls:
+
+- Crack transition approximately 0.15 s.
+- Around 6–14 main chunks on destruction.
+- Dust and fragments settle/fade approximately 0.7–1.2 s.
+- Immediate gameplay opening.
+- Rebuild ghost and short assembly/settling.
+
+Flags:
+
+- Cloth wave.
+- Subtle idle motion.
+- Clear pickup marker.
+- Gold collection sweep tied to actual scoring.
+
+Powerups:
+
+- Readable silhouettes.
+- Gentle bob/rotation.
+- Distinct activation/expiry effects.
+- No excessive particles.
+
+Environment:
+
+- Palm fronds sway with phase offsets.
+- Sakura branches move subtly.
+- Sparse falling petals.
+- Bamboo sway.
+- Water ripples/current.
+- Koi tail movement and pond-contained paths.
+- Seated boys’ subtle gestures.
+- Farmer watering and resting cycle.
+- Cat breathing and occasional ear twitch/stretch.
+
+Cosmetic animation must never determine gameplay collision, timing, score, or random outcomes.
+
+==================================================
+15. AUDIO: ACTUAL FILES, MODERN QUALITY
+==================================================
+
+Create or obtain original/properly licensed audio files.
+
+The final sound direction is:
+
+- Warm.
+- Modern.
+- Tactile.
+- Softly mechanical.
+- Material-specific.
+- Comfortable for repeated play.
+
+Do not use retro square-wave beeps, harsh synthetic placeholder tones, distorted old-console sound, or excessively realistic war explosions as the final audio.
+
+AUDIO REQUIRED:
+
+Tank:
+- Idle motor loop.
+- Movement/load layer.
+- Sand tread contact.
+- Firmer ground tread contact.
+- Turning scrub.
+- Stopping/settling.
+- Ordinary shot.
+- Rocket shot.
+- Tank hit.
+- Shield hit.
+- Helper spawn/shutdown.
+- Player disable/return.
+
+Walls:
+- Adobe first crack.
+- Adobe collapse.
+- Brick first crack.
+- Brick collapse.
+- Earth/stone first crack.
+- Earth/stone collapse.
+- Rubble settling.
+- Material-specific rebuilding.
+
+Gameplay:
+- Flag spawn.
+- Flag collection.
+- Powerup collection.
+- Powerup activation.
+- Powerup ending.
+- Countdown.
+- Match result.
+
+Interface:
+- Invitation received.
+- Invitation accepted.
+- Ready.
+- Gentle button confirmation.
+
+Environment:
+- Najdi breeze, sparse palm rustle, irrigation.
+- Japanese breeze, leaves/bamboo, quiet pond.
+- Basic outdoor breeze, greenery, water.
+
+Music:
+- Najdi: restrained original oud-inspired plucks and light percussion.
+- Japanese: restrained original koto-inspired plucks and airy support.
+- Basic: soft acoustic/mallet playful theme.
+- Seamless approximately 45–90-second loops where practical.
+- Same calm family-friendly intensity.
+
+Use the full attached audio catalog for exact sound IDs and detailed character.
+
+Provide real audio files, manifests, loop information, provenance, and lossless masters where practical.
+
+Ordinary firing and major impacts should have multiple variations, initially at least four.
+Avoid repetitive identical clicks.
+
+Audio buses:
+
+- Master.
+- Music.
+- Effects.
+- Ambience.
+- UI.
+
+Host volume cap applies immediately:
+
+effectiveMaster = min(userVolume, hostVolumeCap).
+
+Host mute wins.
+No audio exceeds the parent-set cap.
+
+Start/resume browser audio after a user gesture.
+Pause and background correctly.
+No duplicated motor/music loops on restart.
+Deduplicate sounds by authoritative event IDs.
+
+Initial mixing:
+- Music around 10–14 dB below principal effects.
+- Ambience around 16–22 dB below.
+- Initially cap short simultaneous effects at approximately 12.
+- Prioritize important damage/objective events.
+- Prevent clipping.
+- Use gentle ducking where needed.
+
+Do not claim manual listening if no listening capability is available.
+
+==================================================
+16. INVITATION, LOBBY AND MATCH FLOW
+==================================================
+
+This is required functionality.
+
+The invitation interface should feel visually connected to the game, but discovery, invitation delivery, player identity, room membership, and seat allocation belong to the shared host.
+
+Required sequence:
+
+1. A child or parent opens Games → Tank Flags.
+2. Create invitation / Join invitation entry.
+3. Creator requests a two-player room.
+4. Host sends invitation to eligible Kids Hug devices on the LAN, including parents and children according to host policy.
+5. Receiver sees:
+
+   دعوة للعب الدبابات
+   [display name] يدعوك للعب
+
+   Accept / Decline.
+
+6. Invitation can arrive while the receiver is outside the game.
+7. First valid acceptance claims the remaining seat atomically.
+8. Later simultaneous acceptances receive room-full.
+9. Both players enter the same lobby.
+10. Show both player slots, connection state, selected theme, duration, and readiness.
+11. Creator proposes Najdi, Basic, or Japanese.
+12. Guest sees the selection and explicitly readies.
+13. A setup change clears both readiness states.
+14. Both clients load the selected assets.
+15. Both verify matching build, config, and map versions/hashes.
+16. Ready is blocked on load or compatibility failure.
+17. Exactly two confirmed ready players trigger a shared three-second countdown.
+18. Match begins from the same authoritative state/tick.
+19. Match ends with the same scores and result.
+20. Offer Rematch / Change theme / Exit.
+21. Rematch uses a new match ID and seed and clears old state.
+
+Handle:
+
+- No peer found.
+- Network permission denied.
+- Discovery unavailable.
+- Invite declined.
+- Invite expired.
+- Invite canceled.
+- Receiver busy.
+- Game missing/disabled.
+- Incompatible version.
+- Room full.
+- Asset load failure.
+- Disconnect.
+- Background.
+- Rejoin.
+- Host exit.
+
+No infinite spinner.
+
+Use host-approved display names.
+Do not expose internal IPs or identifiers in normal child UI.
+Do not add open text chat.
+
+==================================================
+17. KIDS HUG CONTRACT AND STANDALONE DEVELOPMENT
+==================================================
+
+The attached KidsHug Game API is a proposed versioned contract, not proof that it already exists.
+
+If current Kids Hug source is supplied:
+
+- Inspect it.
+- Identify the actual game loader, bridge, room system, audio cap, and lifecycle.
+- Implement or adapt the game-side integration against real code.
+- Document any API differences.
+- Preserve unrelated app functions.
+- Do not modify video, channels, pairing, parent settings, or child data unnecessarily.
+
+If native host source is absent:
+
+- Implement the typed game-side contract.
+- Provide a clearly isolated mock.
+- Document exactly what the native host must supply.
+- Continue the independent game implementation.
+- Provide an optional separate browser development host/relay for real two-client LAN testing where feasible.
+- Keep that development relay outside the .khgame package.
+- A development join code/link is acceptable for this standalone test environment.
+- Do not call it verification of native Kids Hug discovery.
+
+Distinguish:
+
+A. Mock/same-keyboard testing.
+B. Two real browser clients through a development host.
+C. Two actual Kids Hug devices through the real host.
+
+Never claim C based on A or B.
+
+Required host responsibilities:
+
+- Version/capability handshake.
+- Local player identity.
+- Room creation.
+- Invitation delivery and response.
+- Atomic seats.
+- Shared room/setup state.
+- Readiness.
+- Start/pause/resume.
+- Authenticated packet transport.
+- Namespaced save/load.
+- Volume cap.
+- Safe exit and lifecycle.
+
+Game code must not reach directly into parent PINs, video data, other games, arbitrary files, camera, microphone, or unrestricted networking.
+
+==================================================
+18. AUTHORITATIVE NETWORKING
+==================================================
+
+Room authority runs the authoritative simulation.
+
+Guest sends intent only:
+
+- Movement direction.
+- Held fire state.
+- New fire-edge sequence.
+
+Guest does not assign:
+
+- Final position.
+- Health.
+- Damage.
+- Score.
+- Wall destruction.
+- Pickup ownership.
+- Flag ownership.
+
+Initial trial rates:
+
+- Simulation: 30 Hz.
+- Input updates: up to 20 Hz plus discrete fire intent.
+- Snapshots: 10 Hz.
+- Remote interpolation: approximately 100 ms.
+- Stale input timeout: 250 ms.
+- Reconnect grace: 20 seconds.
+
+Use:
+
+- Protocol version.
+- Room ID.
+- Match ID.
+- Tick.
+- Monotonic sequence.
+- Stable entity IDs.
+- Unique event IDs.
+- Validated discriminated message types.
+
+Authority tick order:
+
+1. Validate/accept inputs.
+2. Rotate/move with collision.
+3. Accept legal shots.
+4. Sweep projectiles.
+5. Apply damage/disable.
+6. Resolve flag and pickup collection.
+7. Update timers and safe wall rebuild.
+8. Check match end.
+9. Emit events and snapshots.
+
+Reject:
+
+- Malformed packets.
+- Invalid ranges.
+- Nonfinite numbers.
+- Old match messages.
+- Duplicate events.
+- Illegal sender identity.
+- Impossible firing rates.
+- Oversized payloads.
+- Unauthorized final-state events.
+
+Authenticate sender from transport metadata, not a claimed player ID in a payload.
+
+Use reliable delivery for discrete critical state and latest/coalesced delivery for replaceable inputs/snapshots where supported.
+
+If only reliable transport exists, coalesce stale updates rather than accumulating a delayed queue.
+
+Gameplay RNG belongs to authority and uses a shared recorded seed.
+Cosmetic randomness is separate.
+
+On disconnect/background:
+
+- Coordinate a shared pause.
+- Freeze gameplay timers.
+- Clear stale input.
+- Permit rejoin to the same authenticated slot.
+- Load a full authoritative snapshot before resuming.
+- After grace expiry, end as interrupted without inventing a winner.
+- No host migration required in this version.
+
+==================================================
+19. EXTERNAL CONFIGURATION
+==================================================
+
+All tunable values must be in validated versioned configuration files.
+
+Provide:
+
+- balance.json.
+- visual-settings.json.
+- camera-settings.json.
+- audio-settings.json.
+- Three map JSON files.
+- Asset manifest.
+- Audio manifest.
+- Schemas and typed loaders.
+
+Document units and legal ranges.
+
+Include:
+
+- Match duration/countdown/sudden death.
+- Tank speed/acceleration/turning.
+- Health/damage.
+- Tap/hold/auto cadence.
+- Projectile speed/lifetime.
+- Wall durability/rebuild/ghost.
+- Flag timing/fairness.
+- Respawn/protection.
+- Pickup spawn cadence/weights/lifetime.
+- Buff behavior/duration.
+- Helper behavior.
+- Network rates/timeouts.
+- Camera framing.
+- Quality levels.
+- Audio gains/limits.
+
+Configuration must actually drive the game.
+Do not deliver an unused JSON file while hardcoding the same values elsewhere.
+
+Both players must confirm compatible hashes before starting.
+No mid-match balance edits.
+
+Trial values are working defaults. Document them as adjustable rather than asking me to decide every routine implementation detail.
+
+==================================================
+20. .KHGAME PACKAGE
+==================================================
+
+.khgame is a ZIP-compatible independent game package.
+
+Required root:
+
+manifest.json
+integrity.json
+index.html
+icon.png
+cover.png
+scripts/
+assets/models/
+assets/textures/
+assets/audio/
+assets/fonts/
+config/
+maps/
+
+Use:
+
+- game_id: kids-hug.tank-flags.
+- Landscape orientation.
+- Two players for the primary mode.
+- No internet multiplayer claim.
+- No undeclared permissions.
+- A prerelease version until accepted.
+
+supports_offline means no internet is required; primary multiplayer still needs LAN.
+
+Only advertise verified capabilities.
+Do not mark native local multiplayer supported because a mock exists.
+
+integrity.json:
+
+- Versioned format.
+- SHA-256.
+- Normalized relative paths.
+- Hash every distributable file except integrity.json itself.
+- Deterministic ordering.
+- Verify after final build.
+
+Hashes prove content integrity, not publisher identity.
+
+The shared host owns safe installation, updates, rollback, extraction security, package compatibility, and uninstall policy. Do not hide a second installer in the game.
+
+The first introduction of a loader/SDK into Kids Hug may require an app update. Do not claim a game package can run inside an existing APK that lacks the required loader.
+
+==================================================
+21. IMPLEMENTATION PROCESS
+==================================================
+
+Proceed in this order while continuing toward the complete game:
+
+1. Inspect references and available source.
+2. Create a concise requirements coverage matrix.
+3. Set up reproducible source/build/configuration.
+4. Implement a small Najdi scene at the intended final quality:
+   - Canonical tank.
+   - Real detailed wall states.
+   - Ground.
+   - Palm/house detail.
+   - Correct camera/light.
+   - Movement.
+   - Firing.
+   - Collision.
+   - Breaking/rebuilding.
+   - Actual direction-appropriate sound.
+5. Inspect the running result against the reference.
+6. Improve observed visual deficiencies.
+7. Continue full simulation, all powerups/helper, all three maps and environment assets.
+8. Implement full invitation/lobby flow and networking adapters.
+9. Test and repair.
+10. Build and verify all delivery packages.
+
+Keep working code and checkpoint meaningful changes.
+Do not repeatedly replace working systems with new scaffolds.
+
+Do not claim owner approval of a visual scene unless I actually approve it.
+
+==================================================
+22. REQUIRED VERIFICATION
+==================================================
+
+Run meaningful checks for:
+
+- Clean install and production build.
+- Type checking.
+- Asset loading and missing files.
+- Configuration validation.
+- Map connectivity and spawn legality.
+- Frame-rate-independent simulation.
+- Diagonal normalization.
+- Tank/wall collision and corner cases.
+- Projectile tunneling.
+- Correct Space and touch fire.
+- Tap faster than held fire.
+- No default auto fire.
+- Auto buff expires.
+- Friendly projectile pass-through.
+- Real health and damage.
+- Safe respawn.
+- Exactly two ordinary wall hits.
+- Cracked state persistence.
+- Ten-second rebuild.
+- Occupied rebuild postponement.
+- Exactly-once flag scoring.
+- Fair legal flag candidates.
+- Correct sudden death.
+- Shield/rapid/rocket/helper rules.
+- No automatic helper return.
+- Proper timer behavior.
+- Pause/reconnect/rematch.
+- Duplicate/outdated/malformed packets.
+- Version/hash mismatch.
+- Cleanup after repeated restarts.
+- Volume cap and mute.
+- Source ZIP rebuilding after clean extraction.
+- Compiled web output and .khgame completeness/integrity.
+
+Visual evidence must come from the actual running game:
+
+- Close tank view.
+- Intact/cracked/broken/rebuilding wall.
+- Each full theme.
+- Lobby.
+- Active match.
+- Touch layout.
+
+Provide a development-only asset viewer and sound audition page if practical.
+
+Performance targets, not invented results:
+
+- Aim for 60 FPS on a representative modern midrange Android device.
+- Aim for stable 30 FPS on an agreed lower tier using reduced cosmetic effects.
+- Record actual hardware, browser/WebView, frame times and limitations.
+- If no physical phone is available, explicitly mark phone performance and touch verification untested.
+
+Real native LAN acceptance requires two actual devices and the real adapter.
+Do not invent device tests, audio listening, FPS, or screenshots.
+
+==================================================
+23. FINAL DELIVERY
+==================================================
+
+Deliver:
+
+1. Full editable TypeScript source ZIP.
+2. Separate compiled playable web ZIP.
+3. .khgame package.
+4. Actual runtime GLB models/textures/audio.
+5. Editable authoring sources and generation/export scripts.
+6. All configuration/map files and schemas.
+7. Typed SDK contract and adapters.
+8. Isolated development mock.
+9. Separate development host/relay if implemented.
+10. Asset/audio manifests and licenses.
+11. Integration guide.
+12. Build/test/preview/package instructions.
+13. Actual-game comparison screenshots.
+14. Verification report.
+15. Known issues and exact blockers.
+16. Build/package hashes and version information.
+
+Provide working commands or clearly documented equivalents:
+
+npm ci
+npm run dev
+npm run typecheck
+npm test
+npm run build
+npm run preview
+npm run assets:build
+npm run package
+
+Do not invent commands that are not implemented.
+
+Use one clear project root per ZIP.
+Avoid accidental ZIP-inside-ZIP delivery.
+Include all required files.
+No dependencies on undisclosed local absolute paths.
+
+If a playable preview URL can actually be created, provide it.
+Otherwise provide the compiled web output and exact local launch instructions.
+Never invent a hosted URL.
+
+==================================================
+24. COMPLETION STANDARD
+==================================================
+
+The following do NOT count as a complete game:
+
+- One primitive moving tank.
+- One simple cube wall.
+- Empty asset folders.
+- Missing audio.
+- Retro placeholder beeps used as final sound.
+- A fake second player added by setTimeout.
+- A lobby that only changes screens.
+- A settings file the game never reads.
+- A manifest advertising unimplemented capabilities.
+- A screenshot presented as a running game.
+- A mock connection presented as verified LAN.
+- Documentation claiming success because similarly named functions exist.
+
+Create the best complete implementation possible with the available tools.
+
+If a genuine external dependency blocks one part:
+
+- State the specific dependency.
+- Separate implemented, tested, untested, and blocked items.
+- Complete all independent work.
+- Deliver functioning outputs and precise integration requirements.
+- Do not label the whole project complete when material requirements remain missing.
+
+Do not promise zero bugs or pixel-identical art without evidence.
+The objective is faithful, professional, functioning implementation supported by actual files and actual tests.
+
+Start by inspecting the supplied material, then implement the game.

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "elevationDegrees",
+    "viewWidth",
+    "viewHeight",
+    "near",
+    "far"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "elevationDegrees": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "viewWidth": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "viewHeight": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "near": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "far": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    }
+  }
+}

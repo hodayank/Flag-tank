@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "shadowMap",
+    "pixelRatioCap",
+    "sunIntensity",
+    "ambientIntensity",
+    "effectsLimit"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "const": 1
+    },
+    "shadowMap": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "pixelRatioCap": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "sunIntensity": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "ambientIntensity": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    },
+    "effectsLimit": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 10000,
+      "description": "Trial default; seconds/meters/radians or linear gain as documented in README."
+    }
+  }
+}

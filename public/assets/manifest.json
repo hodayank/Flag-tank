@@ -1,0 +1,2390 @@
+{
+  "version": 1,
+  "assets": [
+    {
+      "id": "COM-TANK-01",
+      "source": "authoring/COM-TANK-01.blend",
+      "runtime": "assets/models/COM-TANK-01.glb",
+      "dimensions": [
+        1.5300002098083496,
+        1.3400000035762787,
+        2.0380001068115234
+      ],
+      "bounds": [
+        [
+          -0.7650001049041748,
+          0.034999996423721313,
+          -0.8000000715255737
+        ],
+        [
+          0.7650001049041748,
+          1.375,
+          1.2380000352859497
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "tank",
+      "materials": [
+        "gold",
+        "paint-turquoise",
+        "rubber",
+        "wheel-rims"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-TANK-02",
+      "source": "authoring/COM-TANK-02.blend",
+      "runtime": "assets/models/COM-TANK-02.glb",
+      "dimensions": [
+        1.5300002098083496,
+        1.3400000035762787,
+        2.0380001068115234
+      ],
+      "bounds": [
+        [
+          -0.7650001049041748,
+          0.034999996423721313,
+          -0.8000000715255737
+        ],
+        [
+          0.7650001049041748,
+          1.375,
+          1.2380000352859497
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "tank",
+      "materials": [
+        "gold",
+        "paint-coral",
+        "rubber",
+        "wheel-rims"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-HELPER-01",
+      "source": "authoring/COM-HELPER-01.blend",
+      "runtime": "assets/models/COM-HELPER-01.glb",
+      "dimensions": [
+        0.9945001006126404,
+        0.8710000216960907,
+        1.3247000575065613
+      ],
+      "bounds": [
+        [
+          -0.4972500503063202,
+          0.022749990224838257,
+          -0.5200000405311584
+        ],
+        [
+          0.4972500503063202,
+          0.893750011920929,
+          0.8047000169754028
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "tank",
+      "materials": [
+        "gold",
+        "paint-turquoise",
+        "rubber",
+        "wheel-rims"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FLAG-01",
+      "source": "authoring/COM-FLAG-01.blend",
+      "runtime": "assets/models/COM-FLAG-01.glb",
+      "dimensions": [
+        0.934583030641079,
+        1.7400000095367432,
+        0.18000000715255737
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.0,
+          -0.09000000357627869
+        ],
+        [
+          0.8445830345153809,
+          1.7400000095367432,
+          0.09000000357627869
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-07",
+      "source": "authoring/NJD-07.blend",
+      "runtime": "assets/models/NJD-07.glb",
+      "dimensions": [
+        1.9268985986709595,
+        0.814999982714653,
+        1.850435495376587
+      ],
+      "bounds": [
+        [
+          -0.9641021490097046,
+          0.012500002980232239,
+          -0.9250325560569763
+        ],
+        [
+          0.9627964496612549,
+          0.8274999856948853,
+          0.9254029393196106
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "NJD masonry",
+        "NJD variation"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/NJD-07-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-08",
+      "source": "authoring/NJD-08.blend",
+      "runtime": "assets/models/NJD-08.glb",
+      "dimensions": [
+        1.9472759366035461,
+        0.814999982714653,
+        1.8548969626426697
+      ],
+      "bounds": [
+        [
+          -0.97576904296875,
+          0.012500002980232239,
+          -0.9253969788551331
+        ],
+        [
+          0.9715068936347961,
+          0.8274999856948853,
+          0.9294999837875366
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "NJD masonry",
+        "NJD variation",
+        "rubber"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/NJD-08-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-09",
+      "source": "authoring/NJD-09.blend",
+      "runtime": "assets/models/NJD-09.glb",
+      "dimensions": [
+        1.7150791883468628,
+        0.23000000417232513,
+        1.5565953254699707
+      ],
+      "bounds": [
+        [
+          -0.9021875262260437,
+          0.004999995231628418,
+          -0.5771519541740417
+        ],
+        [
+          0.8128916621208191,
+          0.23499999940395355,
+          0.979443371295929
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "NJD masonry"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/NJD-09-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-10",
+      "source": "authoring/NJD-10.blend",
+      "runtime": "assets/models/NJD-10.glb",
+      "dimensions": [
+        1.9308776259422302,
+        0.814999982714653,
+        1.8507243394851685
+      ],
+      "bounds": [
+        [
+          -0.9663681983947754,
+          0.012500002980232239,
+          -0.9253140091896057
+        ],
+        [
+          0.9645094275474548,
+          0.8274999856948853,
+          0.9254103302955627
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "NJD masonry",
+        "NJD variation"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-11",
+      "source": "authoring/NJD-11.blend",
+      "runtime": "assets/models/NJD-11.glb",
+      "dimensions": [
+        1.9377526640892029,
+        0.814999982714653,
+        1.849511444568634
+      ],
+      "bounds": [
+        [
+          -0.9730448126792908,
+          0.012500002980232239,
+          -0.9244465827941895
+        ],
+        [
+          0.9647078514099121,
+          0.8274999856948853,
+          0.9250648617744446
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "NJD masonry",
+        "NJD variation"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-23",
+      "source": "authoring/NJD-23.blend",
+      "runtime": "assets/models/NJD-23.glb",
+      "dimensions": [
+        1.9383853673934937,
+        1.089999958872795,
+        1.8506815433502197
+      ],
+      "bounds": [
+        [
+          -0.9667151570320129,
+          0.012500002980232239,
+          -0.9254788160324097
+        ],
+        [
+          0.9716702103614807,
+          1.1024999618530273,
+          0.9252027273178101
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "NJD masonry",
+        "NJD variation"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/NJD-23-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-12",
+      "source": "authoring/NJD-12.blend",
+      "runtime": "assets/models/NJD-12.glb",
+      "dimensions": [
+        2.0,
+        0.18000000715255737,
+        2.0
+      ],
+      "bounds": [
+        [
+          -1.0,
+          -0.18000000715255737,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "NJD masonry"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-13",
+      "source": "authoring/NJD-13.blend",
+      "runtime": "assets/models/NJD-13.glb",
+      "dimensions": [
+        3.200000047683716,
+        3.125,
+        2.784999966621399
+      ],
+      "bounds": [
+        [
+          -1.600000023841858,
+          0.0,
+          -1.375
+        ],
+        [
+          1.600000023841858,
+          3.125,
+          1.409999966621399
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "NJD masonry",
+        "rubber",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-14",
+      "source": "authoring/NJD-14.blend",
+      "runtime": "assets/models/NJD-14.glb",
+      "dimensions": [
+        1.4800000190734863,
+        1.7000000476837158,
+        0.24000000208616257
+      ],
+      "bounds": [
+        [
+          -0.7400000095367432,
+          0.0,
+          -0.11999999731779099
+        ],
+        [
+          0.7400000095367432,
+          1.7000000476837158,
+          0.12000000476837158
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "warm-timber",
+        "wheel-rims"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-15",
+      "source": "authoring/NJD-15.blend",
+      "runtime": "assets/models/NJD-15.glb",
+      "dimensions": [
+        1.1200000047683716,
+        1.0,
+        1.1350000500679016
+      ],
+      "bounds": [
+        [
+          -0.5600000023841858,
+          0.0,
+          -0.5550000071525574
+        ],
+        [
+          0.5600000023841858,
+          1.0,
+          0.5800000429153442
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-16",
+      "source": "authoring/NJD-16.blend",
+      "runtime": "assets/models/NJD-16.glb",
+      "dimensions": [
+        1.175000011920929,
+        0.7800000011920929,
+        1.0250000357627869
+      ],
+      "bounds": [
+        [
+          -0.6000000238418579,
+          -0.030000001192092896,
+          -0.42500001192092896
+        ],
+        [
+          0.574999988079071,
+          0.75,
+          0.6000000238418579
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "rubber",
+        "terracotta"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-17",
+      "source": "authoring/NJD-17.blend",
+      "runtime": "assets/models/NJD-17.glb",
+      "dimensions": [
+        3.120518207550049,
+        2.5125467777252197,
+        3.120518207550049
+      ],
+      "bounds": [
+        [
+          -1.5602591037750244,
+          0.0,
+          -1.5602591037750244
+        ],
+        [
+          1.5602591037750244,
+          2.5125467777252197,
+          1.5602591037750244
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage",
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-18",
+      "source": "authoring/NJD-18.blend",
+      "runtime": "assets/models/NJD-18.glb",
+      "dimensions": [
+        1.808393955230713,
+        0.39859306439757347,
+        1.3240290880203247
+      ],
+      "bounds": [
+        [
+          -0.9008909463882446,
+          -0.03929653391242027,
+          -0.7891861200332642
+        ],
+        [
+          0.9075030088424683,
+          0.3592965304851532,
+          0.5348429679870605
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-19",
+      "source": "authoring/NJD-19.blend",
+      "runtime": "assets/models/NJD-19.glb",
+      "dimensions": [
+        1.7999999523162842,
+        0.39859306439757347,
+        1.600000023841858
+      ],
+      "bounds": [
+        [
+          -0.8999999761581421,
+          -0.03929653391242027,
+          -0.800000011920929
+        ],
+        [
+          0.8999999761581421,
+          0.3592965304851532,
+          0.800000011920929
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-20",
+      "source": "authoring/NJD-20.blend",
+      "runtime": "assets/models/NJD-20.glb",
+      "dimensions": [
+        2.0999999046325684,
+        0.2549999952316284,
+        3.0
+      ],
+      "bounds": [
+        [
+          -1.0499999523162842,
+          0.0,
+          -1.5
+        ],
+        [
+          1.0499999523162842,
+          0.2549999952316284,
+          1.5
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "NJD masonry",
+        "NJD water"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-21",
+      "source": "authoring/NJD-21.blend",
+      "runtime": "assets/models/NJD-21.glb",
+      "dimensions": [
+        1.7999999523162842,
+        0.39499998092651367,
+        1.25
+      ],
+      "bounds": [
+        [
+          -0.8999999761581421,
+          0.0,
+          -0.625
+        ],
+        [
+          0.8999999761581421,
+          0.39499998092651367,
+          0.625
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "paint-coral",
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-22",
+      "source": "authoring/NJD-22.blend",
+      "runtime": "assets/models/NJD-22.glb",
+      "dimensions": [
+        1.1399999856948853,
+        1.1049998998641968,
+        0.4399999976158142
+      ],
+      "bounds": [
+        [
+          -0.5699999928474426,
+          0.0,
+          -0.2199999988079071
+        ],
+        [
+          0.5699999928474426,
+          1.1049998998641968,
+          0.2199999988079071
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "linen",
+        "paint-coral",
+        "terracotta"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "NJD-24",
+      "source": "authoring/NJD-24.blend",
+      "runtime": "assets/models/NJD-24.glb",
+      "dimensions": [
+        2.5,
+        2.1649999618530273,
+        1.899999976158142
+      ],
+      "bounds": [
+        [
+          -1.25,
+          0.0,
+          -0.949999988079071
+        ],
+        [
+          1.25,
+          2.1649999618530273,
+          0.949999988079071
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "paint-coral",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-07",
+      "source": "authoring/BSC-07.blend",
+      "runtime": "assets/models/BSC-07.glb",
+      "dimensions": [
+        1.9367040991783142,
+        0.814999982714653,
+        1.8506870865821838
+      ],
+      "bounds": [
+        [
+          -0.9690649509429932,
+          0.012500002980232239,
+          -0.9254223108291626
+        ],
+        [
+          0.967639148235321,
+          0.8274999856948853,
+          0.9252647757530212
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "BSC masonry",
+        "BSC variation"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/BSC-07-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-08",
+      "source": "authoring/BSC-08.blend",
+      "runtime": "assets/models/BSC-08.glb",
+      "dimensions": [
+        1.9281724095344543,
+        0.814999982714653,
+        1.8545316457748413
+      ],
+      "bounds": [
+        [
+          -0.9618912935256958,
+          0.012500002980232239,
+          -0.9250316619873047
+        ],
+        [
+          0.9662811160087585,
+          0.8274999856948853,
+          0.9294999837875366
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "BSC masonry",
+        "BSC variation",
+        "rubber"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/BSC-08-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-09",
+      "source": "authoring/BSC-09.blend",
+      "runtime": "assets/models/BSC-09.glb",
+      "dimensions": [
+        1.6898598670959473,
+        0.23000000417232513,
+        1.8862676620483398
+      ],
+      "bounds": [
+        [
+          -0.7624285221099854,
+          0.004999995231628418,
+          -0.9830055832862854
+        ],
+        [
+          0.9274313449859619,
+          0.23499999940395355,
+          0.9032620787620544
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "BSC masonry"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/BSC-09-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-10",
+      "source": "authoring/BSC-10.blend",
+      "runtime": "assets/models/BSC-10.glb",
+      "dimensions": [
+        1.9394763112068176,
+        0.814999982714653,
+        1.849794328212738
+      ],
+      "bounds": [
+        [
+          -0.9685715436935425,
+          0.012500002980232239,
+          -0.9246037602424622
+        ],
+        [
+          0.9709047675132751,
+          0.8274999856948853,
+          0.9251905679702759
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "BSC masonry",
+        "BSC variation"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-11",
+      "source": "authoring/BSC-11.blend",
+      "runtime": "assets/models/BSC-11.glb",
+      "dimensions": [
+        1.924134075641632,
+        0.814999982714653,
+        1.8502767086029053
+      ],
+      "bounds": [
+        [
+          -0.9710178971290588,
+          0.012500002980232239,
+          -0.9253755807876587
+        ],
+        [
+          0.9531161785125732,
+          0.8274999856948853,
+          0.9249011278152466
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "BSC masonry",
+        "BSC variation"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-23",
+      "source": "authoring/BSC-23.blend",
+      "runtime": "assets/models/BSC-23.glb",
+      "dimensions": [
+        1.9290595650672913,
+        1.089999958872795,
+        1.851076066493988
+      ],
+      "bounds": [
+        [
+          -0.9640202522277832,
+          0.012500002980232239,
+          -0.9255319833755493
+        ],
+        [
+          0.9650393128395081,
+          1.1024999618530273,
+          0.9255440831184387
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "BSC masonry",
+        "BSC variation"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/BSC-23-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-12",
+      "source": "authoring/BSC-12.blend",
+      "runtime": "assets/models/BSC-12.glb",
+      "dimensions": [
+        2.0,
+        0.18000000715255737,
+        2.0
+      ],
+      "bounds": [
+        [
+          -1.0,
+          -0.18000000715255737,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "BSC masonry"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-13",
+      "source": "authoring/BSC-13.blend",
+      "runtime": "assets/models/BSC-13.glb",
+      "dimensions": [
+        3.200000047683716,
+        3.125,
+        2.784999966621399
+      ],
+      "bounds": [
+        [
+          -1.600000023841858,
+          0.0,
+          -1.375
+        ],
+        [
+          1.600000023841858,
+          3.125,
+          1.409999966621399
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "BSC masonry",
+        "rubber",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-14",
+      "source": "authoring/BSC-14.blend",
+      "runtime": "assets/models/BSC-14.glb",
+      "dimensions": [
+        1.4800000190734863,
+        1.7000000476837158,
+        0.24000000208616257
+      ],
+      "bounds": [
+        [
+          -0.7400000095367432,
+          0.0,
+          -0.11999999731779099
+        ],
+        [
+          0.7400000095367432,
+          1.7000000476837158,
+          0.12000000476837158
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "warm-timber",
+        "wheel-rims"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-15",
+      "source": "authoring/BSC-15.blend",
+      "runtime": "assets/models/BSC-15.glb",
+      "dimensions": [
+        1.1200000047683716,
+        1.0,
+        1.1350000500679016
+      ],
+      "bounds": [
+        [
+          -0.5600000023841858,
+          0.0,
+          -0.5550000071525574
+        ],
+        [
+          0.5600000023841858,
+          1.0,
+          0.5800000429153442
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-16",
+      "source": "authoring/BSC-16.blend",
+      "runtime": "assets/models/BSC-16.glb",
+      "dimensions": [
+        1.175000011920929,
+        0.7800000011920929,
+        1.0250000357627869
+      ],
+      "bounds": [
+        [
+          -0.6000000238418579,
+          -0.030000001192092896,
+          -0.42500001192092896
+        ],
+        [
+          0.574999988079071,
+          0.75,
+          0.6000000238418579
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "rubber",
+        "terracotta"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-17",
+      "source": "authoring/BSC-17.blend",
+      "runtime": "assets/models/BSC-17.glb",
+      "dimensions": [
+        3.120518207550049,
+        2.5125467777252197,
+        3.120518207550049
+      ],
+      "bounds": [
+        [
+          -1.5602591037750244,
+          0.0,
+          -1.5602591037750244
+        ],
+        [
+          1.5602591037750244,
+          2.5125467777252197,
+          1.5602591037750244
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage",
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-18",
+      "source": "authoring/BSC-18.blend",
+      "runtime": "assets/models/BSC-18.glb",
+      "dimensions": [
+        1.7351988554000854,
+        0.39859306439757347,
+        1.6352711915969849
+      ],
+      "bounds": [
+        [
+          -0.9275515675544739,
+          -0.03929653391242027,
+          -0.8022300601005554
+        ],
+        [
+          0.8076472878456116,
+          0.3592965304851532,
+          0.8330411314964294
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-19",
+      "source": "authoring/BSC-19.blend",
+      "runtime": "assets/models/BSC-19.glb",
+      "dimensions": [
+        1.8126999735832214,
+        0.39859306439757347,
+        1.600000023841858
+      ],
+      "bounds": [
+        [
+          -0.9126999974250793,
+          -0.03929653391242027,
+          -0.800000011920929
+        ],
+        [
+          0.8999999761581421,
+          0.3592965304851532,
+          0.800000011920929
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-20",
+      "source": "authoring/BSC-20.blend",
+      "runtime": "assets/models/BSC-20.glb",
+      "dimensions": [
+        2.0999999046325684,
+        0.2549999952316284,
+        3.0
+      ],
+      "bounds": [
+        [
+          -1.0499999523162842,
+          0.0,
+          -1.5
+        ],
+        [
+          1.0499999523162842,
+          0.2549999952316284,
+          1.5
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "BSC masonry",
+        "BSC water"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-21",
+      "source": "authoring/BSC-21.blend",
+      "runtime": "assets/models/BSC-21.glb",
+      "dimensions": [
+        2.0,
+        0.6600000262260437,
+        2.5
+      ],
+      "bounds": [
+        [
+          -1.0,
+          0.1899999976158142,
+          -1.25
+        ],
+        [
+          1.0,
+          0.8500000238418579,
+          1.25
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-22",
+      "source": "authoring/BSC-22.blend",
+      "runtime": "assets/models/BSC-22.glb",
+      "dimensions": [
+        1.2329877614974976,
+        0.6000000089406967,
+        1.0239923298358917
+      ],
+      "bounds": [
+        [
+          -0.7592822313308716,
+          -0.10000000894069672,
+          -0.6463020443916321
+        ],
+        [
+          0.473705530166626,
+          0.5,
+          0.37769028544425964
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "BSC masonry"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "BSC-24",
+      "source": "authoring/BSC-24.blend",
+      "runtime": "assets/models/BSC-24.glb",
+      "dimensions": [
+        2.5,
+        2.1649999618530273,
+        1.899999976158142
+      ],
+      "bounds": [
+        [
+          -1.25,
+          0.0,
+          -0.949999988079071
+        ],
+        [
+          1.25,
+          2.1649999618530273,
+          0.949999988079071
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "paint-coral",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-07",
+      "source": "authoring/JPN-07.blend",
+      "runtime": "assets/models/JPN-07.glb",
+      "dimensions": [
+        1.9405298829078674,
+        0.814999982714653,
+        1.8506823182106018
+      ],
+      "bounds": [
+        [
+          -0.9712823629379272,
+          0.012500002980232239,
+          -0.9252431392669678
+        ],
+        [
+          0.9692475199699402,
+          0.8274999856948853,
+          0.925439178943634
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "JPN masonry",
+        "JPN variation"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/JPN-07-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-08",
+      "source": "authoring/JPN-08.blend",
+      "runtime": "assets/models/JPN-08.glb",
+      "dimensions": [
+        1.9395660758018494,
+        0.814999982714653,
+        1.8549054265022278
+      ],
+      "bounds": [
+        [
+          -0.972975492477417,
+          0.012500002980232239,
+          -0.9254054427146912
+        ],
+        [
+          0.9665905833244324,
+          0.8274999856948853,
+          0.9294999837875366
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "JPN masonry",
+        "JPN variation",
+        "rubber"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/JPN-08-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-09",
+      "source": "authoring/JPN-09.blend",
+      "runtime": "assets/models/JPN-09.glb",
+      "dimensions": [
+        1.4105157852172852,
+        0.23000000417232513,
+        1.381322205066681
+      ],
+      "bounds": [
+        [
+          -0.4431438446044922,
+          0.004999995231628418,
+          -0.7536283135414124
+        ],
+        [
+          0.967371940612793,
+          0.23499999940395355,
+          0.6276938915252686
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "JPN masonry"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/JPN-09-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-10",
+      "source": "authoring/JPN-10.blend",
+      "runtime": "assets/models/JPN-10.glb",
+      "dimensions": [
+        1.9277157187461853,
+        0.814999982714653,
+        1.8482025265693665
+      ],
+      "bounds": [
+        [
+          -0.9563916325569153,
+          0.012500002980232239,
+          -0.9231554865837097
+        ],
+        [
+          0.97132408618927,
+          0.8274999856948853,
+          0.9250470399856567
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "JPN masonry",
+        "JPN variation"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-11",
+      "source": "authoring/JPN-11.blend",
+      "runtime": "assets/models/JPN-11.glb",
+      "dimensions": [
+        1.9295334815979004,
+        0.814999982714653,
+        1.8493648767471313
+      ],
+      "bounds": [
+        [
+          -0.9672979116439819,
+          0.012500002980232239,
+          -0.9242797493934631
+        ],
+        [
+          0.9622355699539185,
+          0.8274999856948853,
+          0.9250851273536682
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "JPN masonry",
+        "JPN variation"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-23",
+      "source": "authoring/JPN-23.blend",
+      "runtime": "assets/models/JPN-23.glb",
+      "dimensions": [
+        1.939010202884674,
+        1.089999958872795,
+        1.8506978154182434
+      ],
+      "bounds": [
+        [
+          -0.9729782342910767,
+          0.012500002980232239,
+          -0.9252417683601379
+        ],
+        [
+          0.9660319685935974,
+          1.1024999618530273,
+          0.9254560470581055
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "wall",
+      "materials": [
+        "JPN masonry",
+        "JPN variation"
+      ],
+      "animations": [],
+      "lods": [
+        "assets/models/JPN-23-LOD1.glb"
+      ],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-12",
+      "source": "authoring/JPN-12.blend",
+      "runtime": "assets/models/JPN-12.glb",
+      "dimensions": [
+        2.0,
+        0.18000000715255737,
+        2.0
+      ],
+      "bounds": [
+        [
+          -1.0,
+          -0.18000000715255737,
+          -1.0
+        ],
+        [
+          1.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "JPN masonry"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-13",
+      "source": "authoring/JPN-13.blend",
+      "runtime": "assets/models/JPN-13.glb",
+      "dimensions": [
+        3.4001104831695557,
+        3.4604194164276123,
+        3.200000047683716
+      ],
+      "bounds": [
+        [
+          -1.7000552415847778,
+          0.0,
+          -1.600000023841858
+        ],
+        [
+          1.7000552415847778,
+          3.4604194164276123,
+          1.600000023841858
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "JPN masonry",
+        "JPN roof",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-14",
+      "source": "authoring/JPN-14.blend",
+      "runtime": "assets/models/JPN-14.glb",
+      "dimensions": [
+        1.4800000190734863,
+        1.7000000476837158,
+        0.24000000208616257
+      ],
+      "bounds": [
+        [
+          -0.7400000095367432,
+          0.0,
+          -0.11999999731779099
+        ],
+        [
+          0.7400000095367432,
+          1.7000000476837158,
+          0.12000000476837158
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "warm-timber",
+        "wheel-rims"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-15",
+      "source": "authoring/JPN-15.blend",
+      "runtime": "assets/models/JPN-15.glb",
+      "dimensions": [
+        1.1200000047683716,
+        1.0,
+        1.1350000500679016
+      ],
+      "bounds": [
+        [
+          -0.5600000023841858,
+          0.0,
+          -0.5550000071525574
+        ],
+        [
+          0.5600000023841858,
+          1.0,
+          0.5800000429153442
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-16",
+      "source": "authoring/JPN-16.blend",
+      "runtime": "assets/models/JPN-16.glb",
+      "dimensions": [
+        1.175000011920929,
+        0.7800000011920929,
+        1.0250000357627869
+      ],
+      "bounds": [
+        [
+          -0.6000000238418579,
+          -0.030000001192092896,
+          -0.42500001192092896
+        ],
+        [
+          0.574999988079071,
+          0.75,
+          0.6000000238418579
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "rubber",
+        "terracotta"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-17",
+      "source": "authoring/JPN-17.blend",
+      "runtime": "assets/models/JPN-17.glb",
+      "dimensions": [
+        2.458465814590454,
+        2.9867279529571533,
+        2.5463764667510986
+      ],
+      "bounds": [
+        [
+          -1.2809092998504639,
+          0.0,
+          -1.2609940767288208
+        ],
+        [
+          1.1775565147399902,
+          2.9867279529571533,
+          1.2853823900222778
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "sakura",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-18",
+      "source": "authoring/JPN-18.blend",
+      "runtime": "assets/models/JPN-18.glb",
+      "dimensions": [
+        0.9049086570739746,
+        1.9400000423192978,
+        0.511994481086731
+      ],
+      "bounds": [
+        [
+          -0.5232663750648499,
+          0.01000000536441803,
+          -0.20429262518882751
+        ],
+        [
+          0.38164228200912476,
+          1.9500000476837158,
+          0.30770185589790344
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-19",
+      "source": "authoring/JPN-19.blend",
+      "runtime": "assets/models/JPN-19.glb",
+      "dimensions": [
+        1.7999999523162842,
+        0.39859306439757347,
+        1.6327728033065796
+      ],
+      "bounds": [
+        [
+          -0.8999999761581421,
+          -0.03929653391242027,
+          -0.8327727913856506
+        ],
+        [
+          0.8999999761581421,
+          0.3592965304851532,
+          0.800000011920929
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "foliage",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-20",
+      "source": "authoring/JPN-20.blend",
+      "runtime": "assets/models/JPN-20.glb",
+      "dimensions": [
+        2.0999999046325684,
+        0.2549999952316284,
+        3.0
+      ],
+      "bounds": [
+        [
+          -1.0499999523162842,
+          0.0,
+          -1.5
+        ],
+        [
+          1.0499999523162842,
+          0.2549999952316284,
+          1.5
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "JPN masonry",
+        "JPN water",
+        "paint-coral"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-21",
+      "source": "authoring/JPN-21.blend",
+      "runtime": "assets/models/JPN-21.glb",
+      "dimensions": [
+        2.0,
+        0.6600000262260437,
+        2.5
+      ],
+      "bounds": [
+        [
+          -1.0,
+          0.1899999976158142,
+          -1.25
+        ],
+        [
+          1.0,
+          0.8500000238418579,
+          1.25
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-22",
+      "source": "authoring/JPN-22.blend",
+      "runtime": "assets/models/JPN-22.glb",
+      "dimensions": [
+        0.4399999976158142,
+        1.1049998998641968,
+        0.4399999976158142
+      ],
+      "bounds": [
+        [
+          -0.2199999988079071,
+          0.0,
+          -0.2199999988079071
+        ],
+        [
+          0.2199999988079071,
+          1.1049998998641968,
+          0.2199999988079071
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "paint-turquoise",
+        "terracotta",
+        "warm-timber"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "JPN-24",
+      "source": "authoring/JPN-24.blend",
+      "runtime": "assets/models/JPN-24.glb",
+      "dimensions": [
+        1.0499999523162842,
+        0.5837115049362183,
+        0.6099999845027924
+      ],
+      "bounds": [
+        [
+          -0.47999995946884155,
+          0.0,
+          -0.28999999165534973
+        ],
+        [
+          0.5699999928474426,
+          0.5837115049362183,
+          0.3199999928474426
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "decoration",
+      "materials": [
+        "linen",
+        "terracotta"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-POWER-01",
+      "source": "authoring/COM-POWER-01.blend",
+      "runtime": "assets/models/COM-POWER-01.glb",
+      "dimensions": [
+        0.7599999904632568,
+        0.7100000195205212,
+        0.7599999904632568
+      ],
+      "bounds": [
+        [
+          -0.3799999952316284,
+          0.019999999552965164,
+          -0.3799999952316284
+        ],
+        [
+          0.3799999952316284,
+          0.7300000190734863,
+          0.3799999952316284
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "gold",
+        "paint-turquoise"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-POWER-02",
+      "source": "authoring/COM-POWER-02.blend",
+      "runtime": "assets/models/COM-POWER-02.glb",
+      "dimensions": [
+        0.7599999904632568,
+        0.7100000195205212,
+        0.7599999904632568
+      ],
+      "bounds": [
+        [
+          -0.3799999952316284,
+          0.019999999552965164,
+          -0.3799999952316284
+        ],
+        [
+          0.3799999952316284,
+          0.7300000190734863,
+          0.3799999952316284
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-POWER-03",
+      "source": "authoring/COM-POWER-03.blend",
+      "runtime": "assets/models/COM-POWER-03.glb",
+      "dimensions": [
+        0.7599999904632568,
+        0.7100000195205212,
+        0.7599999904632568
+      ],
+      "bounds": [
+        [
+          -0.3799999952316284,
+          0.019999999552965164,
+          -0.3799999952316284
+        ],
+        [
+          0.3799999952316284,
+          0.7300000190734863,
+          0.3799999952316284
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "gold",
+        "paint-coral"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-POWER-04",
+      "source": "authoring/COM-POWER-04.blend",
+      "runtime": "assets/models/COM-POWER-04.glb",
+      "dimensions": [
+        0.7599999904632568,
+        0.7100000195205212,
+        0.7599999904632568
+      ],
+      "bounds": [
+        [
+          -0.3799999952316284,
+          0.019999999552965164,
+          -0.3799999952316284
+        ],
+        [
+          0.3799999952316284,
+          0.7300000190734863,
+          0.3799999952316284
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "foliage",
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-POWER-05",
+      "source": "authoring/COM-POWER-05.blend",
+      "runtime": "assets/models/COM-POWER-05.glb",
+      "dimensions": [
+        0.7599999904632568,
+        0.7100000195205212,
+        0.7599999904632568
+      ],
+      "bounds": [
+        [
+          -0.3799999952316284,
+          0.019999999552965164,
+          -0.3799999952316284
+        ],
+        [
+          0.3799999952316284,
+          0.7300000190734863,
+          0.3799999952316284
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "pickup",
+      "materials": [
+        "gold",
+        "paint-turquoise"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-PROJECTILE-01",
+      "source": "authoring/COM-PROJECTILE-01.blend",
+      "runtime": "assets/models/COM-PROJECTILE-01.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-PROJECTILE-02",
+      "source": "authoring/COM-PROJECTILE-02.blend",
+      "runtime": "assets/models/COM-PROJECTILE-02.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-SHIELD-01",
+      "source": "authoring/COM-SHIELD-01.blend",
+      "runtime": "assets/models/COM-SHIELD-01.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FX-MUZZLE",
+      "source": "authoring/COM-FX-MUZZLE.blend",
+      "runtime": "assets/models/COM-FX-MUZZLE.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FX-HIT",
+      "source": "authoring/COM-FX-HIT.blend",
+      "runtime": "assets/models/COM-FX-HIT.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FX-WALL-CRACK",
+      "source": "authoring/COM-FX-WALL-CRACK.blend",
+      "runtime": "assets/models/COM-FX-WALL-CRACK.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FX-DUST",
+      "source": "authoring/COM-FX-DUST.blend",
+      "runtime": "assets/models/COM-FX-DUST.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FX-REBUILD",
+      "source": "authoring/COM-FX-REBUILD.blend",
+      "runtime": "assets/models/COM-FX-REBUILD.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-TRACK-DECAL",
+      "source": "authoring/COM-TRACK-DECAL.blend",
+      "runtime": "assets/models/COM-TRACK-DECAL.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-RESPAWN-01",
+      "source": "authoring/COM-RESPAWN-01.blend",
+      "runtime": "assets/models/COM-RESPAWN-01.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    },
+    {
+      "id": "COM-FLAG-SPAWN-01",
+      "source": "authoring/COM-FLAG-SPAWN-01.blend",
+      "runtime": "assets/models/COM-FLAG-SPAWN-01.glb",
+      "dimensions": [
+        0.17999999970197678,
+        0.17999999970197678,
+        0.3199999928474426
+      ],
+      "bounds": [
+        [
+          -0.08999999612569809,
+          0.009999997913837433,
+          -0.1599999964237213
+        ],
+        [
+          0.09000000357627869,
+          0.1899999976158142,
+          0.1599999964237213
+        ]
+      ],
+      "forward": "+Z (runtime)",
+      "pivot": "ground center",
+      "collisionRole": "cosmetic",
+      "materials": [
+        "gold"
+      ],
+      "animations": [],
+      "lods": [],
+      "provenance": "Original procedural Blender geometry; authoring/build.py"
+    }
+  ]
+}

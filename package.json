@@ -1,0 +1,30 @@
+{
+  "name": "tank-flags",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test --test-isolation=none tests/*.test.ts",
+    "build": "npm run typecheck && node scripts/integrity.mjs && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "assets:build": "blender -b -t 2 --python authoring/build.py && python3 authoring/audio.py && python3 scripts/maps.py",
+    "relay": "node --import tsx src/relay.ts",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "@noble/hashes": "2.0.1",
+    "three": "0.180.0",
+    "ws": "8.18.3"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@types/three": "0.180.0",
+    "@types/ws": "8.18.1",
+    "playwright-core": "1.56.1",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "6.1.0"
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "version": 1,
+  "sounds": [
+    {
+      "id": "motor-idle",
+      "file": "assets/audio/motor-idle.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "motor-idle.wav"
+    },
+    {
+      "id": "motor-load",
+      "file": "assets/audio/motor-load.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "motor-load.wav"
+    },
+    {
+      "id": "tread-sand",
+      "file": "assets/audio/tread-sand.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "tread-sand.wav"
+    },
+    {
+      "id": "tread-ground",
+      "file": "assets/audio/tread-ground.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "tread-ground.wav"
+    },
+    {
+      "id": "turn",
+      "file": "assets/audio/turn.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "turn.wav"
+    },
+    {
+      "id": "stop",
+      "file": "assets/audio/stop.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stop.wav"
+    },
+    {
+      "id": "shot-1",
+      "file": "assets/audio/shot-1.wav",
+      "loop": false,
+      "duration": 0.5,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "shot-1.wav"
+    },
+    {
+      "id": "shot-2",
+      "file": "assets/audio/shot-2.wav",
+      "loop": false,
+      "duration": 0.5,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "shot-2.wav"
+    },
+    {
+      "id": "shot-3",
+      "file": "assets/audio/shot-3.wav",
+      "loop": false,
+      "duration": 0.5,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "shot-3.wav"
+    },
+    {
+      "id": "shot-4",
+      "file": "assets/audio/shot-4.wav",
+      "loop": false,
+      "duration": 0.5,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "shot-4.wav"
+    },
+    {
+      "id": "rocket",
+      "file": "assets/audio/rocket.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "rocket.wav"
+    },
+    {
+      "id": "tank-hit-1",
+      "file": "assets/audio/tank-hit-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "tank-hit-1.wav"
+    },
+    {
+      "id": "tank-hit-2",
+      "file": "assets/audio/tank-hit-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "tank-hit-2.wav"
+    },
+    {
+      "id": "tank-hit-3",
+      "file": "assets/audio/tank-hit-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "tank-hit-3.wav"
+    },
+    {
+      "id": "tank-hit-4",
+      "file": "assets/audio/tank-hit-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "tank-hit-4.wav"
+    },
+    {
+      "id": "shield-hit",
+      "file": "assets/audio/shield-hit.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "shield-hit.wav"
+    },
+    {
+      "id": "helper-spawn",
+      "file": "assets/audio/helper-spawn.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "helper-spawn.wav"
+    },
+    {
+      "id": "helper-shutdown",
+      "file": "assets/audio/helper-shutdown.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "helper-shutdown.wav"
+    },
+    {
+      "id": "disable",
+      "file": "assets/audio/disable.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "disable.wav"
+    },
+    {
+      "id": "return",
+      "file": "assets/audio/return.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "return.wav"
+    },
+    {
+      "id": "adobe-crack-1",
+      "file": "assets/audio/adobe-crack-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-crack-1.wav"
+    },
+    {
+      "id": "adobe-crack-2",
+      "file": "assets/audio/adobe-crack-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-crack-2.wav"
+    },
+    {
+      "id": "adobe-crack-3",
+      "file": "assets/audio/adobe-crack-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-crack-3.wav"
+    },
+    {
+      "id": "adobe-crack-4",
+      "file": "assets/audio/adobe-crack-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-crack-4.wav"
+    },
+    {
+      "id": "adobe-collapse-1",
+      "file": "assets/audio/adobe-collapse-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-collapse-1.wav"
+    },
+    {
+      "id": "adobe-collapse-2",
+      "file": "assets/audio/adobe-collapse-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-collapse-2.wav"
+    },
+    {
+      "id": "adobe-collapse-3",
+      "file": "assets/audio/adobe-collapse-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-collapse-3.wav"
+    },
+    {
+      "id": "adobe-collapse-4",
+      "file": "assets/audio/adobe-collapse-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-collapse-4.wav"
+    },
+    {
+      "id": "brick-crack-1",
+      "file": "assets/audio/brick-crack-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-crack-1.wav"
+    },
+    {
+      "id": "brick-crack-2",
+      "file": "assets/audio/brick-crack-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-crack-2.wav"
+    },
+    {
+      "id": "brick-crack-3",
+      "file": "assets/audio/brick-crack-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-crack-3.wav"
+    },
+    {
+      "id": "brick-crack-4",
+      "file": "assets/audio/brick-crack-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-crack-4.wav"
+    },
+    {
+      "id": "brick-collapse-1",
+      "file": "assets/audio/brick-collapse-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-collapse-1.wav"
+    },
+    {
+      "id": "brick-collapse-2",
+      "file": "assets/audio/brick-collapse-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-collapse-2.wav"
+    },
+    {
+      "id": "brick-collapse-3",
+      "file": "assets/audio/brick-collapse-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-collapse-3.wav"
+    },
+    {
+      "id": "brick-collapse-4",
+      "file": "assets/audio/brick-collapse-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-collapse-4.wav"
+    },
+    {
+      "id": "stone-crack-1",
+      "file": "assets/audio/stone-crack-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-crack-1.wav"
+    },
+    {
+      "id": "stone-crack-2",
+      "file": "assets/audio/stone-crack-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-crack-2.wav"
+    },
+    {
+      "id": "stone-crack-3",
+      "file": "assets/audio/stone-crack-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-crack-3.wav"
+    },
+    {
+      "id": "stone-crack-4",
+      "file": "assets/audio/stone-crack-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-crack-4.wav"
+    },
+    {
+      "id": "stone-collapse-1",
+      "file": "assets/audio/stone-collapse-1.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-collapse-1.wav"
+    },
+    {
+      "id": "stone-collapse-2",
+      "file": "assets/audio/stone-collapse-2.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-collapse-2.wav"
+    },
+    {
+      "id": "stone-collapse-3",
+      "file": "assets/audio/stone-collapse-3.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-collapse-3.wav"
+    },
+    {
+      "id": "stone-collapse-4",
+      "file": "assets/audio/stone-collapse-4.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-collapse-4.wav"
+    },
+    {
+      "id": "rubble",
+      "file": "assets/audio/rubble.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "rubble.wav"
+    },
+    {
+      "id": "adobe-rebuild",
+      "file": "assets/audio/adobe-rebuild.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "adobe-rebuild.wav"
+    },
+    {
+      "id": "brick-rebuild",
+      "file": "assets/audio/brick-rebuild.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "brick-rebuild.wav"
+    },
+    {
+      "id": "stone-rebuild",
+      "file": "assets/audio/stone-rebuild.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "stone-rebuild.wav"
+    },
+    {
+      "id": "flag-spawn",
+      "file": "assets/audio/flag-spawn.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "flag-spawn.wav"
+    },
+    {
+      "id": "flag-collect",
+      "file": "assets/audio/flag-collect.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "flag-collect.wav"
+    },
+    {
+      "id": "power-collect",
+      "file": "assets/audio/power-collect.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "power-collect.wav"
+    },
+    {
+      "id": "power-activate",
+      "file": "assets/audio/power-activate.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "power-activate.wav"
+    },
+    {
+      "id": "power-end",
+      "file": "assets/audio/power-end.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "power-end.wav"
+    },
+    {
+      "id": "countdown",
+      "file": "assets/audio/countdown.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "countdown.wav"
+    },
+    {
+      "id": "result",
+      "file": "assets/audio/result.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "result.wav"
+    },
+    {
+      "id": "invite",
+      "file": "assets/audio/invite.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "invite.wav"
+    },
+    {
+      "id": "accept",
+      "file": "assets/audio/accept.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "accept.wav"
+    },
+    {
+      "id": "ready",
+      "file": "assets/audio/ready.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "ready.wav"
+    },
+    {
+      "id": "button",
+      "file": "assets/audio/button.wav",
+      "loop": false,
+      "duration": 0.85,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "button.wav"
+    },
+    {
+      "id": "najdi-ambience",
+      "file": "assets/audio/najdi-ambience.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "najdi-ambience.wav"
+    },
+    {
+      "id": "basic-ambience",
+      "file": "assets/audio/basic-ambience.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "basic-ambience.wav"
+    },
+    {
+      "id": "japan-ambience",
+      "file": "assets/audio/japan-ambience.wav",
+      "loop": true,
+      "duration": 4,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "japan-ambience.wav"
+    },
+    {
+      "id": "najdi-music",
+      "file": "assets/audio/najdi-music.wav",
+      "loop": true,
+      "duration": 48,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "najdi-music.wav"
+    },
+    {
+      "id": "basic-music",
+      "file": "assets/audio/basic-music.wav",
+      "loop": true,
+      "duration": 48,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "basic-music.wav"
+    },
+    {
+      "id": "japan-music",
+      "file": "assets/audio/japan-music.wav",
+      "loop": true,
+      "duration": 48,
+      "provenance": "Original procedural PCM recording; authoring/audio.py",
+      "master": "japan-music.wav"
+    }
+  ]
+}
