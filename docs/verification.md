@@ -24,7 +24,7 @@ This is a functional prerelease, not the complete premium game requested. Outsta
 - Relay reconnect token survives only the current game controller session. Full refresh/rejoin persistence, explicit invitation expiry/cancel/decline/busy policy and comprehensive abuse/rate limiting are not production-ready. No internet multiplayer is advertised.
 - Handshake hashes build/balance/map and the full resource inventory; Ready verifies each resource. This gate was added after the first protocol/browser run and is checked separately in the final validation. Package integrity also covers every distributable file independently.
 - All numeric config files have schemas and runtime settings checks; full map/manifest JSON schema validation is incomplete.
-- Resource cleanup is implemented at page exit and clears match scene membership, audio loops, labels and input on restart. Exhaustive heap/GPU leak testing over many restarts remains unrun; texture/disposable-resource accounting needs a further audit.
+- Resource cleanup is implemented at page exit and clears match scene membership, audio loops, labels and input on restart. Exhaustive heap/GPU leak testing over many restarts remains unrun; owned geometry, instance buffers, ground textures, ghost materials and loop gain nodes are explicitly released; exhaustive heap/GPU accounting still needs a further audit.
 
 ## External prerequisites and untested acceptance
 
