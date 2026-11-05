@@ -50,3 +50,5 @@ Environment `install_script` and `start_skill` were saved successfully as a draf
 - Final `.khgame` and compiled web ZIP contents were re-read and every `integrity.json` SHA-256 entry verified. Archive hashes are in `artifacts/SHA256.json`; they change if documentation/evidence is repackaged.
 - Asset viewer captured the real canonical tank and intact/cracked/rubble models. Automated emulated multi-touch successfully moved and fired simultaneously. Physical touch remains untested.
 - `rebuild-ghost-fixture.png` uses an explicitly labeled injected development simulation state at 8.5 seconds after destruction; it demonstrates the actual runtime telegraph, not a recorded natural match sequence.
+
+- Final restart check: PASS, three actual UI match restarts held renderer counts at 132 geometries and one texture on each measured iteration. This is bounded-resource evidence for that sequence, not an exhaustive leak proof.

@@ -79,7 +79,7 @@ Balance defaults: 180 or 300 seconds, three-second countdown, 60-second sudden d
 
 Map cell units are 2 m on a 27×17 grid. The three themes share geometry, spawn cells and candidates. Wall occupancy is 45.1% of interior cells; paths remain connected. Flag candidates are ranked by both players' path costs, with breakable-wall cost and a previous-location penalty, then authority-seeded tie variation. Exact simultaneous entry timing is not yet tracked; same-tick collection uses proximity then seeded tie breaking.
 
-Visual/camera/audio settings drive the runtime, but not every target quality mode is implemented. JSON schemas cover numeric settings; map/manifest schema coverage is still partial. Compatibility hashes build, balance, map and the complete resource inventory. Ready verifies resource bytes, including models, audio, textures, font and configuration. SHA-256 has a local JavaScript fallback for HTTP LAN origins.
+Visual/camera/audio settings drive the runtime, but not every target quality mode is implemented. JSON schemas cover numeric settings; map/manifest schema coverage is still partial. Compatibility hashes a source-build fingerprint, balance, map and the complete resource inventory. Ready verifies resource bytes, including models, audio, textures, font and configuration. SHA-256 has a local JavaScript fallback for HTTP LAN origins.
 
 ## Original assets and licenses
 
