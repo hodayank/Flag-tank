@@ -1,8 +1,8 @@
 {
   "version": 1,
-  "shadowMap": 1024,
+  "shadowMap": 2048,
   "pixelRatioCap": 1.25,
-  "sunIntensity": 2.7,
-  "ambientIntensity": 1.8,
+  "sunIntensity": 3.2,
+  "ambientIntensity": 0.9,
   "effectsLimit": 120
 }

@@ -1,0 +1,492 @@
+{
+  "version": 4,
+  "referenceArchive": "Tank.rar",
+  "assets": [
+    {
+      "id": "COM-TANK-01",
+      "runtime": "assets/najdi-v4/COM-TANK-01.glb",
+      "source": "authoring/najdi-v4/COM-TANK-01.blend",
+      "bounds": [
+        [
+          -0.7150000929832458,
+          -0.9645000100135803,
+          0.004999995231628418
+        ],
+        [
+          0.7150000929832458,
+          0.8100000619888306,
+          1.3700000047683716
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-TANK-02",
+      "runtime": "assets/najdi-v4/COM-TANK-02.glb",
+      "source": "authoring/najdi-v4/COM-TANK-02.blend",
+      "bounds": [
+        [
+          -0.7150000929832458,
+          -0.9645000100135803,
+          0.004999995231628418
+        ],
+        [
+          0.7150000929832458,
+          0.8100000619888306,
+          1.3700000047683716
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-HELPER-01",
+      "runtime": "assets/najdi-v4/COM-HELPER-01.glb",
+      "source": "authoring/najdi-v4/COM-HELPER-01.blend",
+      "bounds": [
+        [
+          -0.42900004982948303,
+          -0.5787000060081482,
+          0.0029999911785125732
+        ],
+        [
+          0.42900004982948303,
+          0.48600006103515625,
+          0.8220000863075256
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-07",
+      "runtime": "assets/najdi-v4/NJD-07.glb",
+      "source": "authoring/najdi-v4/NJD-07.blend",
+      "bounds": [
+        [
+          -0.9539999961853027,
+          -0.20999999344348907,
+          0.004999995231628418
+        ],
+        [
+          0.9539999961853027,
+          0.20999999344348907,
+          0.8350000381469727
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-08",
+      "runtime": "assets/najdi-v4/NJD-08.glb",
+      "source": "authoring/najdi-v4/NJD-08.blend",
+      "bounds": [
+        [
+          -0.9539999961853027,
+          -0.22449998557567596,
+          0.0001688965130597353
+        ],
+        [
+          0.9539999961853027,
+          0.20999999344348907,
+          0.8398310542106628
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-09",
+      "runtime": "assets/najdi-v4/NJD-09.glb",
+      "source": "authoring/najdi-v4/NJD-09.blend",
+      "bounds": [
+        [
+          -1.004468321800232,
+          -0.796059250831604,
+          -0.11975425481796265
+        ],
+        [
+          1.0498955249786377,
+          0.6618316173553467,
+          0.41323965787887573
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-10",
+      "runtime": "assets/najdi-v4/NJD-10.glb",
+      "source": "authoring/najdi-v4/NJD-10.blend",
+      "bounds": [
+        [
+          -0.9539999961853027,
+          -0.20999999344348907,
+          0.004999995231628418
+        ],
+        [
+          0.9539999961853027,
+          0.9150000214576721,
+          0.8350000381469727
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-11",
+      "runtime": "assets/najdi-v4/NJD-11.glb",
+      "source": "authoring/najdi-v4/NJD-11.blend",
+      "bounds": [
+        [
+          -0.9539999961853027,
+          -0.20999999344348907,
+          0.004999995231628418
+        ],
+        [
+          0.9539999961853027,
+          0.9150000214576721,
+          0.8350000381469727
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-23",
+      "runtime": "assets/najdi-v4/NJD-23.glb",
+      "source": "authoring/najdi-v4/NJD-23.blend",
+      "bounds": [
+        [
+          -1.233553409576416,
+          -0.3535533845424652,
+          0.0
+        ],
+        [
+          1.233553409576416,
+          0.3535533845424652,
+          1.5199999809265137
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-12",
+      "runtime": "assets/najdi-v4/NJD-12.glb",
+      "source": "authoring/najdi-v4/NJD-12.blend",
+      "bounds": [
+        [
+          -1.0,
+          -1.0,
+          -0.11999999731779099
+        ],
+        [
+          1.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-13",
+      "runtime": "assets/najdi-v4/NJD-13.glb",
+      "source": "authoring/najdi-v4/NJD-13.blend",
+      "bounds": [
+        [
+          -1.625,
+          -1.5099999904632568,
+          0.0
+        ],
+        [
+          1.625,
+          1.3049999475479126,
+          3.069999933242798
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-14",
+      "runtime": "assets/najdi-v4/NJD-14.glb",
+      "source": "authoring/najdi-v4/NJD-14.blend",
+      "bounds": [
+        [
+          -0.5400000214576721,
+          -0.1599999964237213,
+          0.0
+        ],
+        [
+          0.5400000214576721,
+          0.06499999761581421,
+          1.100000023841858
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-15",
+      "runtime": "assets/najdi-v4/NJD-15.glb",
+      "source": "authoring/najdi-v4/NJD-15.blend",
+      "bounds": [
+        [
+          -0.5400000214576721,
+          -0.5900000333786011,
+          0.0
+        ],
+        [
+          0.5400000214576721,
+          0.44999998807907104,
+          1.100000023841858
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-16",
+      "runtime": "assets/najdi-v4/NJD-16.glb",
+      "source": "authoring/najdi-v4/NJD-16.blend",
+      "bounds": [
+        [
+          -0.5900000333786011,
+          -0.5450000166893005,
+          -0.009999990463256836
+        ],
+        [
+          0.5375000238418579,
+          0.3474999964237213,
+          0.7745000123977661
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-17",
+      "runtime": "assets/najdi-v4/NJD-17.glb",
+      "source": "authoring/najdi-v4/NJD-17.blend",
+      "bounds": [
+        [
+          -1.6527345180511475,
+          -1.6527345180511475,
+          0.0
+        ],
+        [
+          1.6527345180511475,
+          1.6527345180511475,
+          2.5571537017822266
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-18",
+      "runtime": "assets/najdi-v4/NJD-18.glb",
+      "source": "authoring/najdi-v4/NJD-18.blend",
+      "bounds": [
+        [
+          -0.6771783232688904,
+          -0.8418921232223511,
+          0.033399492502212524
+        ],
+        [
+          0.686433732509613,
+          0.8322963714599609,
+          0.2866005003452301
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-19",
+      "runtime": "assets/najdi-v4/NJD-19.glb",
+      "source": "authoring/najdi-v4/NJD-19.blend",
+      "bounds": [
+        [
+          -1.0149999856948853,
+          -0.9900000095367432,
+          -0.020000001415610313
+        ],
+        [
+          1.0149999856948853,
+          0.9900000095367432,
+          0.2866005003452301
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-20",
+      "runtime": "assets/najdi-v4/NJD-20.glb",
+      "source": "authoring/najdi-v4/NJD-20.blend",
+      "bounds": [
+        [
+          -0.8999999761581421,
+          -1.5,
+          0.0
+        ],
+        [
+          0.8999999761581421,
+          1.5,
+          0.25999999046325684
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-21",
+      "runtime": "assets/najdi-v4/NJD-21.glb",
+      "source": "authoring/najdi-v4/NJD-21.blend",
+      "bounds": [
+        [
+          -0.8999999761581421,
+          -0.6499999761581421,
+          0.0
+        ],
+        [
+          0.8999999761581421,
+          0.6499999761581421,
+          0.33500000834465027
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-22",
+      "runtime": "assets/najdi-v4/NJD-22.glb",
+      "source": "authoring/najdi-v4/NJD-22.blend",
+      "bounds": [
+        [
+          -0.75,
+          -0.3400000035762787,
+          0.0
+        ],
+        [
+          0.75,
+          0.23999999463558197,
+          1.0549999475479126
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "NJD-24",
+      "runtime": "assets/najdi-v4/NJD-24.glb",
+      "source": "authoring/najdi-v4/NJD-24.blend",
+      "bounds": [
+        [
+          -1.2000000476837158,
+          -1.0053715705871582,
+          0.0
+        ],
+        [
+          1.2000000476837158,
+          1.0053715705871582,
+          2.119999885559082
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-FLAG-01",
+      "runtime": "assets/najdi-v4/COM-FLAG-01.glb",
+      "source": "authoring/najdi-v4/COM-FLAG-01.blend",
+      "bounds": [
+        [
+          -0.20000000298023224,
+          -0.20000000298023224,
+          0.0
+        ],
+        [
+          0.8432144522666931,
+          0.20000000298023224,
+          1.75
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-POWER-01",
+      "runtime": "assets/najdi-v4/COM-POWER-01.glb",
+      "source": "authoring/najdi-v4/COM-POWER-01.blend",
+      "bounds": [
+        [
+          -0.3799999952316284,
+          -0.3799999952316284,
+          0.009999997913837433
+        ],
+        [
+          0.3799999952316284,
+          0.3799999952316284,
+          0.7699999809265137
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-POWER-02",
+      "runtime": "assets/najdi-v4/COM-POWER-02.glb",
+      "source": "authoring/najdi-v4/COM-POWER-02.blend",
+      "bounds": [
+        [
+          -0.3799999952316284,
+          -0.3799999952316284,
+          0.009999997913837433
+        ],
+        [
+          0.3799999952316284,
+          0.3799999952316284,
+          0.7699999809265137
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-POWER-03",
+      "runtime": "assets/najdi-v4/COM-POWER-03.glb",
+      "source": "authoring/najdi-v4/COM-POWER-03.blend",
+      "bounds": [
+        [
+          -0.3799999952316284,
+          -0.3799999952316284,
+          0.009999997913837433
+        ],
+        [
+          0.3799999952316284,
+          0.3799999952316284,
+          0.7900000214576721
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-POWER-04",
+      "runtime": "assets/najdi-v4/COM-POWER-04.glb",
+      "source": "authoring/najdi-v4/COM-POWER-04.blend",
+      "bounds": [
+        [
+          -0.3799999952316284,
+          -0.3799999952316284,
+          0.009999997913837433
+        ],
+        [
+          0.3799999952316284,
+          0.3799999952316284,
+          0.7699999809265137
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    },
+    {
+      "id": "COM-POWER-05",
+      "runtime": "assets/najdi-v4/COM-POWER-05.glb",
+      "source": "authoring/najdi-v4/COM-POWER-05.blend",
+      "bounds": [
+        [
+          -0.3799999952316284,
+          -0.3799999952316284,
+          0.009999997913837433
+        ],
+        [
+          0.3799999952316284,
+          0.3799999952316284,
+          0.7699999809265137
+        ]
+      ],
+      "provenance": "New original meshes authored from Tank.rar references; najdi-v4.py"
+    }
+  ]
+}

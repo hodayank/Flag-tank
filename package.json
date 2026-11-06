@@ -1,6 +1,6 @@
 {
   "name": "tank-flags",
-  "version": "0.2.0-intermediate.1",
+  "version": "0.4.0-najdi-new-art",
   "private": true,
   "type": "module",
   "scripts": {
@@ -9,10 +9,11 @@
     "test": "node --import tsx --test --test-isolation=none tests/*.test.ts",
     "build": "npm run typecheck && node scripts/integrity.mjs && vite build",
     "preview": "vite preview --host 0.0.0.0",
-    "assets:build": "blender -b -t 2 --python authoring/build.py && python3 authoring/audio.py && python3 scripts/maps.py",
+    "assets:build": "blender -b -t 2 --python authoring/najdi-v4.py && python3 authoring/texture-v4.py && python3 authoring/audio.py && python3 scripts/maps.py",
     "relay": "node --import tsx src/relay.ts",
     "package": "node scripts/package.mjs",
-    "start": "node scripts/start-desktop.mjs"
+    "start": "node scripts/start-desktop.mjs",
+    "desktop:export": "npm run build && esbuild src/relay.ts --bundle --platform=node --format=cjs --outfile=artifacts/relay-v4.cjs && python3 scripts/export-new-desktop.py"
   },
   "dependencies": {
     "@noble/hashes": "2.0.1",

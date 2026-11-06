@@ -1,3 +1,5 @@
+> **Latest desktop trial: new Najdi 3D assets v0.4.** Download downloads/new-najdi-3d/Najdi-New-3D-Desktop.zip, extract it, and double-click PLAY.bat. Node 24+ required; no commands or npm install needed. See docs/new-art-v4/README.md. Historical instructions below describe earlier developer releases.
+
 > **Current revision: 0.2.0-intermediate.1 — incomplete production scope.** Read [v3 verification](docs/v3-verification.md), [full requirement audit](docs/v3-coverage.md), and [visual comparison](docs/v3-comparison.md). Older verification documents describe the previous release and are historical.
 
 # Tank Flags · 0.2.0-intermediate.1
