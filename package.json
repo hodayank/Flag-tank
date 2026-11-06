@@ -11,7 +11,8 @@
     "preview": "vite preview --host 0.0.0.0",
     "assets:build": "blender -b -t 2 --python authoring/build.py && python3 authoring/audio.py && python3 scripts/maps.py",
     "relay": "node --import tsx src/relay.ts",
-    "package": "node scripts/package.mjs"
+    "package": "node scripts/package.mjs",
+    "start": "node scripts/start-desktop.mjs"
   },
   "dependencies": {
     "@noble/hashes": "2.0.1",
